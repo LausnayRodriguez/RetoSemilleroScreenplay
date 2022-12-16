@@ -1,0 +1,2483 @@
+<html lang="es"><head>
+	<title>
+		Iniciar sesión | Corona Colombia</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="google-site-verification" content="JKEEugcoC0R_SXljwlqH5AjmxFLmP8aMOx5MP1vfo_I">
+	<meta name="keywords">
+<meta name="description">
+<meta name="robots" content="noindex,nofollow">
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-uNR+SXwL9W74WWGfOAcKJEaw80MLLlqm4N6shBh4fSqOfHVxmPHhJAOLy6VhBsH+"></script><script type="text/javascript" async="" src="https://widgets-api.embluemail.com/library/2.11.1"></script><script async="" src="https://widgets-static.embluemail.com/accounts/1069263122B9DCB55A/scripts/sw_10692.js?ts=20221216T113142"></script><script async="" src="https://s.pinimg.com/ct/lib/main.9a94ee76.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-7132HLKT6G&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" defer="" async="" src="https://tr.datatrics.com/"></script><script type="text/javascript" async="" src="https://s.pinimg.com/ct/core.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1606869749346026?v=2.9.90&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5NHQD34"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="/ruxitagentjs_ICA27Vfgjqrux_10251220909040818.js" data-dtconfig="rid=RID_948021833|rpid=-1029941878|domain=corona.co|reportUrl=/rb_ccv2-cust-ckrkw-coronaind1-p1|uam=1|app=7705edbe4381a2b8|rcdec=1209600000|featureHash=ICA27Vfgjqrux|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=rwb27ku0|mel=100000|dpvc=1|ssv=4|lastModification=1671196829986|dtVersion=10251220909040818|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA27Vfgjqrux_10251220909040818.js"></script><link rel="shortcut icon" type="image/x-icon" media="all" href="/_ui/responsive/theme-corona/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="all" href="/wro/all_responsive.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/wro/addons_responsive.css"><script src="/_ui/shared/js/analyticsmediator.js"></script>
+<script>
+/* Google Analytics */
+
+var googleAnalyticsTrackingId = 'your_google_analytics_tracking_id';
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', googleAnalyticsTrackingId]);
+
+
+		_gaq.push(['_trackPageview']);
+	
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+function trackAddToCart_google(productCode, quantityAdded) {
+	_gaq.push(['_trackEvent', 'Cart', 'AddToCart', productCode, quantityAdded]);
+}
+
+function trackUpdateCart(productCode, initialQuantity, newQuantity) {
+	if (initialQuantity != newQuantity) {
+		if (initialQuantity > newQuantity) {
+			_gaq.push(['_trackEvent', 'Cart', 'RemoveFromCart', productCode, initialQuantity - newQuantity]);
+		} else {
+			_gaq.push(['_trackEvent', 'Cart', 'AddToCart', productCode, newQuantity - initialQuantity]);
+		}
+	}
+}
+
+function trackRemoveFromCart(productCode, initialQuantity) {
+	_gaq.push(['_trackEvent', 'Cart', 'RemoveFromCart', productCode, initialQuantity]);
+}
+
+window.mediator.subscribe('trackAddToCart', function(data) {
+	if (data.productCode && data.quantity)
+	{
+		trackAddToCart_google(data.productCode, data.quantity);
+	}
+});
+
+window.mediator.subscribe('trackUpdateCart', function(data) {
+	if (data.productCode && data.initialCartQuantity && data.newCartQuantity)
+	{
+		trackUpdateCart(data.productCode, data.initialCartQuantity, data.newCartQuantity);
+	}
+});
+
+window.mediator.subscribe('trackRemoveFromCart', function(data) {
+	if (data.productCode && data.initialCartQuantity)
+	{
+		trackRemoveFromCart(data.productCode, data.initialCartQuantity);
+	}
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({'event': 'dataLayerinitialized', pagetype: ''});
+    </script>
+    <!-- User ID -->
+    <script>(function () {
+        window.dataLayer = window.dataLayer || [];
+        let cookieUserIdAnalytics = readCookie('cookieUserIdAnalytics');
+        let cookieUserIdAnalyticsTemp = readCookie('cookieUserIdAnalyticsTemp');
+        if (cookieUserIdAnalytics === 'logout') {
+            writeCookie('cookieUserIdAnalyticsTemp', '', 1);
+            dataLayer.push({'event': 'signOut'});
+         }
+        else if(cookieUserIdAnalyticsTemp === '') {
+            writeCookie('cookieUserIdAnalyticsTemp', cookieUserIdAnalytics, 1);
+            dataLayer.push({'event': 'signIn', userId: cookieUserIdAnalytics});
+        }
+        else {
+            dataLayer.push({'event': 'authentication', userId: cookieUserIdAnalytics});
+        }
+    })(window, document, 'script', 'dataLayer');
+
+        function readCookie(name) {
+            var i, c, ca, nameEQ = name + "=";
+            ca = document.cookie.split(';');
+            for(i=0;i < ca.length;i++) {
+                c = ca[i];
+                while (c.charAt(0)==' ') {
+                    c = c.substring(1,c.length);
+                }
+                if (c.indexOf(nameEQ) == 0) {
+                    return c.substring(nameEQ.length,c.length);
+                }
+            }
+            return '';
+        }
+        function writeCookie(name,value,days) {
+            var date, expires;
+            if (days) {
+                date = new Date();
+                date.setTime(date.getTime()+(days*24*60*60*1000));
+                expires = "; expires=" + date.toGMTString();
+            }else{
+                expires = "";
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+    </script>
+    <!-- End User ID -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5NHQD34');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+        
+                 //DataLayer: No specific Page type page
+             
+
+        function trackProductClick_GTM(productObj, list) {
+            window.dataLayer = window.dataLayer || [];
+
+            if (COC.siteUid === COC.config.siteVajillasCO) {
+                trackProductClick_GTMCommon(productObj, dataLayer);
+            }  else {
+                trackProductClick_GTMCommon(productObj, dataLayer);
+                dataLayer.push({
+                    'event': 'productClick',
+                    'ecommerce': {
+                        'currencyCode': 'COP',
+                        'click': {
+                            'actionField': {'list': list},
+                            'products': [{
+                                'name': productObj.name,
+                                'id': productObj.id,
+                                'price': productObj.price,
+                                'brand': productObj.brand,
+                                'category': productObj.category,
+                                'position': productObj.position
+                            }]
+                        }
+                    },
+                    'eventCallback': function () {
+                        window.location.href = productObj.url;
+                    }
+                });
+            }
+        }
+
+         
+
+        function trackUpdateCart_GTM(productCode, initialQuantity, newQuantity, cartData) {
+            if (initialQuantity !== newQuantity) {
+                var product = {
+                    "id": productCode,
+                    "name": cartData.productName,
+                    "brand": cartData.productManufacturer,
+                    "category": cartData.productCategory,
+                    "price": cartData.productPrice,
+                    "quantity": newQuantity,
+                    "quantity_difference": (newQuantity - initialQuantity),
+                    "discount": cartData.productDiscount,
+                    "item_category2": cartData.productMaterial,
+                    "item_category3": cartData.productColor,
+                    "item_category4": cartData.productPieceType,
+                    "item_category5": cartData.productDecorationLine
+                };
+                if (initialQuantity > newQuantity) {
+                    trackRemoveFromCart_GTM(product)
+                } else {
+                    trackAddToCart_GTM(product);
+                }
+            }
+        }
+
+        
+
+        function trackAddToCart_GTM(productObj) {
+            window.dataLayer = window.dataLayer || [];
+            if (COC.siteUid === COC.config.siteVajillasCO) {
+                trackAddToCart_GTMCommon(productObj, dataLayer);
+            } else {
+                trackAddToCart_GTMCommon(productObj, dataLayer);
+                dataLayer.push({
+                    'event': 'addToCart',
+                    'ecommerce': {
+                        'currencyCode': 'COP',
+                        'add': {
+                            'products': [{
+                                'name': productObj.name,
+                                'id': productObj.id,
+                                'price': productObj.price,
+                                'brand': productObj.brand,
+                                'category': productObj.category,
+                                'quantity': productObj.quantity,
+                            }]
+                        }
+                    }
+                });
+            }
+        }
+
+        
+
+        function trackRemoveFromCart_GTM(productObj) {
+            window.dataLayer = window.dataLayer || [];
+            if (COC.siteUid === COC.config.siteVajillasCO) {
+
+                trackRemoveFromCart_GTMCommon(productObj, dataLayer);
+            }  else {
+                trackRemoveFromCart_GTMCommon(productObj, dataLayer);
+                dataLayer.push({
+                    'event': 'removeToCart',
+                    'ecommerce': {
+                        'currencyCode': 'COP',
+                        'remove': {
+                            'products': [{
+                                'name': productObj.name,
+                                'id': productObj.id,
+                                'price': productObj.price,
+                                'brand': productObj.brand,
+                                'category': productObj.category,
+                                'quantity': productObj.quantity
+                            }]
+                        }
+                    }
+                });
+            }
+        }
+
+        function trackProductClick_GTMCommon(productObj, dataLayer) {
+            let section;
+            let list_name;
+            let price_product = productObj.price != undefined ? productObj.price : "0";
+            let category2 = productObj.item_category2 != undefined ? productObj.item_category2 : "";
+            let category3 = productObj.item_category3 != undefined ? productObj.item_category3 : "";
+            let category4 = productObj.item_category4 != undefined ? productObj.item_category4 : "";
+            let category5 = productObj.item_category5 != undefined ? productObj.item_category5 : "";
+
+            if (readCookie('lastViewItemListNameGA4') === 'Modal') {
+                section = 'Buscador';
+                list_name = 'Modal';
+            } else if (COC.pageType === 'CATEGORY') {
+                section = 'PLP';
+                list_name = 'PLP categorias - ' + COC.categoryName;
+            } else if (COC.pageType === 'PRODUCTSEARCH') {
+                section = 'SLP';
+                list_name = 'SLP - resultados';
+            } else if (COC.pageType === 'HOME') {
+                section = 'HOME';
+                list_name = readCookie('lastViewItemListNameGA4');
+            } else {
+                section = 'Buscador';
+                list_name = 'Modal';
+            }
+            writeCookie('ListNameGA4_' + productObj.id, list_name, 2);
+            dataLayer.push({ecommerce: null});
+            dataLayer.push({
+                'event': 'select_item',
+                'item_list_name': list_name,
+                'item_list_id': '',
+                'section': section,
+                'ecommerce': {
+                    'items': [{
+                        'item_id': productObj.id,
+                        'item_name': productObj.name,
+                        'item_list_name': list_name,
+                        'item_list_id': '',
+                        'index': productObj.position,
+                        'item_brand': productObj.brand,
+                        'item_category': productObj.category,
+                        'item_variant': '',
+                        'price': price_product,
+                        'currency': 'COP',
+                        'item_category2': category2,
+                        'item_category3': category3,
+                        'item_category4': category4,
+                        'item_category5': category5,
+                    }]
+                },
+                'eventCallback': function () {
+                    window.location.href = productObj.url;
+                }
+            });
+        }
+
+        function trackAddToCart_GTMCommon(productObj, dataLayer) {
+            let section;
+            let list_name;
+            let category2 = productObj.item_category2 != undefined ? productObj.item_category2 : "";
+            let category3 = productObj.item_category3 != undefined ? productObj.item_category3 : "";
+            let category4 = productObj.item_category4 != undefined ? productObj.item_category4 : "";
+            let category5 = productObj.item_category5 != undefined ? productObj.item_category5 : "";
+
+            if (readCookie('lastViewItemListNameGA4') === 'Modal') {
+                section = 'Buscador';
+                list_name = 'Modal';
+            } else if (COC.pageType === 'CATEGORY') {
+                section = 'PLP';
+                list_name = 'PLP categorias - ' + COC.categoryName;
+            } else if (COC.pageType === 'PRODUCTSEARCH') {
+                section = 'SLP';
+                list_name = 'SLP - resultados';
+            } else if (COC.pageType === 'HOME') {
+                section = 'HOME';
+                list_name = readCookie('lastViewItemListNameGA4');
+            } else if (COC.pageType === 'PRODUCT') {
+                section = 'PDP';
+            } else if (COC.pageType === 'CART') {
+                section = 'CART';
+            } else {
+                section = 'Buscador';
+                list_name = 'Modal';
+            }
+            let quantity = productObj.quantity_difference != undefined ? productObj.quantity_difference : productObj.quantity;
+            let total_price = (productObj.price * quantity);
+            dataLayer.push({ecommerce: null});
+            dataLayer.push({
+                'event': 'add_to_cart',
+                'currency': 'COP',
+                'value': total_price,
+                'section': section,
+                'ecommerce': {
+                    'items': [{
+                        'item_id': productObj.id,
+                        'item_name': productObj.name,
+                        'item_list_name': list_name,
+                        'item_list_id': '',
+                        'index': productObj.position,
+                        'item_brand': productObj.brand,
+                        'item_category': productObj.category,
+                        'item_variant': '',
+                        'price': productObj.price,
+                        'quantity': quantity,
+                        'discount': productObj.discount,
+                        'currency': 'COP',
+                        'item_category2': category2,
+                        'item_category3': category3,
+                        'item_category4': category4,
+                        'item_category5': category5,
+                    }]
+                }
+            });
+        }
+
+        function trackRemoveFromCart_GTMCommon(productObj, dataLayer) {
+            let section;
+            let list_name;
+            let category2 = productObj.item_category2 != undefined ? productObj.item_category2 : "";
+            let category3 = productObj.item_category3 != undefined ? productObj.item_category3 : "";
+            let category4 = productObj.item_category4 != undefined ? productObj.item_category4 : "";
+            let category5 = productObj.item_category5 != undefined ? productObj.item_category5 : "";
+
+            if (readCookie('lastViewItemListNameGA4') === 'Modal') {
+                section = 'Buscador';
+                list_name = 'Modal';
+            } else if (COC.pageType === 'CATEGORY') {
+                section = 'PLP';
+                list_name = 'PLP categorias - ' + COC.categoryName;
+            } else if (COC.pageType === 'PRODUCTSEARCH') {
+                section = 'SLP';
+                list_name = 'SLP - resultados';
+            } else if (COC.pageType === 'HOME') {
+                section = 'HOME';
+                list_name = readCookie('lastViewItemListNameGA4');
+            } else if (COC.pageType === 'PRODUCT') {
+                section = 'PDP';
+            } else if (COC.pageType === 'CART') {
+                section = 'CART';
+            } else {
+                section = 'Buscador';
+                list_name = 'Modal';
+            }
+            let quantity = productObj.quantity_difference != undefined ? (productObj.quantity_difference * -1) : productObj.quantity;
+            let total_price = (productObj.price * quantity);
+            dataLayer.push({ecommerce: null});
+            dataLayer.push({
+                'event': 'remove_from_cart',
+                'currency': 'COP',
+                'value': total_price,
+                'section': section,
+                'ecommerce': {
+                    'items': [{
+                        'item_id': productObj.id,
+                        'item_name': productObj.name,
+                        'item_list_name': list_name,
+                        'item_list_id': '',
+                        'index': productObj.position,
+                        'item_brand': productObj.brand,
+                        'item_category': productObj.category,
+                        'item_variant': '',
+                        'price': productObj.price,
+                        'quantity': quantity,
+                        'discount': productObj.discount,
+                        'currency': 'COP',
+                        'item_category2': category2,
+                        'item_category3': category3,
+                        'item_category4': category4,
+                        'item_category5': category5,
+                    }]
+                }
+            });
+        }
+
+        function writeCookie(name,value,days) {
+            var date, expires;
+            if (days) {
+                date = new Date();
+                date.setTime(date.getTime()+(days*24*60*60*1000));
+                expires = "; expires=" + date.toGMTString();
+            }else{
+                expires = "";
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        function readCookie(name) {
+            var i, c, ca, nameEQ = name + "=";
+            ca = document.cookie.split(';');
+            for(i=0;i < ca.length;i++) {
+                c = ca[i];
+                while (c.charAt(0)==' ') {
+                    c = c.substring(1,c.length);
+                }
+                if (c.indexOf(nameEQ) == 0) {
+                    return c.substring(nameEQ.length,c.length);
+                }
+            }
+            return '';
+        }
+
+        window.mediator.subscribe('trackProductClick', function (data) {
+            if (data.product && data.product.id && data.list) {
+                trackProductClick_GTM(data.product, data.list);
+            }
+        });
+
+        window.mediator.subscribe('trackUpdateCart', function (data) {
+            if (data.productCode && data.initialCartQuantity && data.newCartQuantity) {
+                trackUpdateCart_GTM(data.productCode, data.initialCartQuantity, data.newCartQuantity, data.cartData);
+            }
+        });
+
+        window.mediator.subscribe('trackAddToCart', function (data) {
+            if (COC.siteUid === COC.config.siteVajillasCO) {
+                if (data.productCode && data.quantity) {
+                    var product = {
+                        "id": data.productCode,
+                        "name": data.cartEntry.productName,
+                        "brand": data.cartEntry.productManufacturer,
+                        "category": data.cartEntry.productCategory,
+                        "price": data.cartEntry.productPrice,
+                        "quantity": data.quantity,
+                        "discount": data.cartEntry.productDiscount,
+                        "item_category2": data.cartEntry.productMaterial,
+                        "item_category3": data.cartEntry.productColor,
+                        "item_category4": data.cartEntry.productPieceType,
+                        "item_category5": data.cartEntry.productDecorationLine
+                    };
+                    trackAddToCart_GTM(product);
+                }
+            }  else {
+                if (data.productCode && data.quantity) {
+                    var product = {
+                        "id": data.productCode,
+                        "name": data.cartEntry.productName,
+                        "brand": data.cartEntry.productManufacturer,
+                        "category": data.cartEntry.productCategory,
+                        "price": data.cartEntry.productPrice,
+                        "quantity": data.quantity,
+                        "discount": data.cartEntry.productDiscount,
+                        "item_category2": data.cartEntry.productMaterial,
+                        "item_category3": data.cartEntry.productColor,
+                        "item_category4": data.cartEntry.productPieceType,
+                        "item_category5": data.cartEntry.productDecorationLine
+                    };
+                    trackAddToCart_GTM(product);
+                }
+            }
+        });
+
+        window.mediator.subscribe('trackRemoveFromCart', function (data) {
+            if (COC.siteUid === COC.config.siteVajillasCO) {
+                if (data.productCode && data.initialCartQuantity) {
+
+                    let discountHandler = data.cartEntry.productDiscount;
+                    let discount = discountHandler;
+                    if (discountHandler !== '0') {
+                        discount = parseFloat(discount).toFixed(1);
+                    }
+
+                    var product = {
+                        "id": data.productCode,
+                        "name": data.cartEntry.productName,
+                        "brand": data.cartEntry.brand,
+                        "category": data.cartEntry.category,
+                        "price": data.cartEntry.productPrice,
+                        "quantity": data.initialCartQuantity,
+                        "discount": discount,
+                        "item_category2": data.cartEntry.productMaterial,
+                        "item_category3": data.cartEntry.productColor,
+                        "item_category4": data.cartEntry.productPieceType,
+                        "item_category5": data.cartEntry.productDecorationLine
+                    };
+                    trackRemoveFromCart_GTM(product);
+                }
+            }  else {
+                if (data.productCode && data.initialCartQuantity) {
+
+                    let discountHandler = data.cartEntry.productDiscount;
+                    let discount = discountHandler;
+                    if (discountHandler !== '0') {
+                        discount = parseFloat(discount).toFixed(1);
+                    }
+
+                    var product = {
+                        "id": data.productCode,
+                        "name": data.cartEntry.productName,
+                        "brand": data.cartEntry.brand,
+                        "category": data.cartEntry.category,
+                        "price": data.cartEntry.productPrice,
+                        "quantity": data.initialCartQuantity,
+                        "discount": discount,
+                        "item_category2": data.cartEntry.productMaterial,
+                        "item_category3": data.cartEntry.productColor,
+                        "item_category4": data.cartEntry.productPieceType,
+                        "item_category5": data.cartEntry.productDecorationLine
+                    };
+                    trackRemoveFromCart_GTM(product);
+                }
+            }
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document).on("click", ".product-item-clickable-area", function (event) {
+                // Get the link element with the product data
+                let productLink = $(this).find("a.thumb").first();
+                let productLinkGA4 = $(this).find("div.thumb").first();
+
+                // Get the displayed price value
+                if (productLink.length === 0) {
+                    let priceGA4 = $(productLinkGA4).data("price");
+                    GTM.analytics.clickedLink(productLinkGA4, priceGA4);
+                } else {
+                    let price = $(productLink).data("price");
+                    GTM.analytics.clickedLink(productLink, price);
+                }
+            });
+        });
+    </script>
+
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-NGK7B7H"></script>
+<meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/772166998/?random=1671208302564&amp;cv=11&amp;fst=1671208302564&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=2wgbu0&amp;u_w=1366&amp;u_h=768&amp;hn=www.googleadservices.com&amp;frm=0&amp;url=https%3A%2F%2Fcorona.co%2Flogin%2Fregister&amp;ref=https%3A%2F%2Fcorona.co%2Flogin&amp;tiba=Iniciar%20sesi%C3%B3n%20%7C%20Corona%20Colombia&amp;auid=2025464658.1671208277&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5359.125%7CGoogle%2520Chrome%3B108.0.5359.125&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;rfmt=3&amp;fmt=4"></script><script charset="utf-8" src="https://siteintercept.qualtrics.com/dxjsmodule/13.7ca37fd749ece40e6b66.chunk.js?Q_CLIENTVERSION=1.82.1&amp;Q_CLIENTTYPE=web&amp;Q_BRANDID=corona.co"></script><style type="text/css">@font-face{font-family:onsite;src:url('data:application/octet-stream;base64,AAEAAAAPAIAAAwBwR1NVQiCLJXoAAAD8AAAAVE9TLzI+JkqMAAABUAAAAFZjbWFwWrVTPwAAAagAAAIsY3Z0IAAAAAAAABesAAAADmZwZ21iLvl6AAAXvAAADgxnYXNwAAAAEAAAF6QAAAAIZ2x5Zl88Z6YAAAPUAAAPtGhlYWQeAtI1AAATiAAAADZoaGVhCWYFwQAAE8AAAAAkaG10eDGd//sAABPkAAAAMGxvY2EXahLQAAAUFAAAABptYXhwAWMPEQAAFDAAAAAgbmFtZc2dGBkAABRQAAACzXBvc3SusBnJAAAXIAAAAIJwcmVwfrY7tgAAJcgAAACcAAEAAAAKADAAPgACREZMVAAObGF0bgAaAAQAAAAAAAAAAQAAAAQAAAAAAAAAAQAAAAFsaWdhAAgAAAABAAAAAQAEAAQAAAABAAgAAQAGAAAAAQAAAAEEIgGQAAUAAAJ6ArwAAACMAnoCvAAAAeAAMQECAAACAAUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBmRWQAwOgE6FgDUv9qAFoDVQCYAAAAAQAAAAAAAAAAAAUAAAADAAAALAAAAAQAAAGYAAEAAAAAAJIAAwABAAAALAADAAoAAAGYAAQAZgAAABAAEAADAADoBOgK6BnoHOgf6FLoWP//AADoBOgK6BnoHOge6FLoVf//AAAAAAAAAAAAAAAAAAAAAQAQABAAEAAQABAAEgASAAAAAQACAAMABAAFAAYABwAIAAkACgALAAABBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAACUAAAAAAAAAAsAAOgEAADoBAAAAAEAAOgKAADoCgAAAAIAAOgZAADoGQAAAAMAAOgcAADoHAAAAAQAAOgeAADoHgAAAAUAAOgfAADoHwAAAAYAAOhSAADoUgAAAAcAAOhVAADoVQAAAAgAAOhWAADoVgAAAAkAAOhXAADoVwAAAAoAAOhYAADoWAAAAAsABP///2kEcANSABoALgA6AEYAd0B0IgEJBSoBBAgcAQABA0wACQUKBQkKgAAIBwQHCASACwEAAQCGAAIABQkCBWcACg0BBwgKB2cMAQYDAQZXAAQAAwEEA2cMAQYGAV8AAQYBTzEvGxsBAEJBPDs3NC86MTobLhssJiQeHRgWEQ4HBQAaARoOBhYrBSIuAT0BIyImJwM0Nz4BNyUyFhUTFAYHBQcGAxc3JTI2NQM0JgcFIgYVEx4BMzElISIGFBYzITI2NCY3IQ4BFBYXIT4BNCYBDREiFl8lNgEJGgwiEwOwJjUJNCb+Bt8UFQLpAhcFBgkGBfxPBQYJAQYEAiz+dg0SEg0Big0SEs39nAsPDwsCZAsPD5YOIBOFNCUCYiUaDg8BCjUm/Z8mNgEFuREBGcPEBQcFAmIFBwELBgX9ngQG9xIaEhIaEswCEhcSAgISFxIAAAX//v9pBaEDUwAkADIAQQBEAEcAQkA/R0VEOColBgIDRkMfDgQFBAJMAAAAAwIAA2cAAgAEBQIEaQAFAQEFVwAFBQFfAAEFAU8+OzY1MC0oJz8yBgYYKwEuASMhIgYHMQ4BFREUFQYXFhceATMhMjY3MTc2NzYnNDURNCYHAQYiJwE1NDYXITIWFQEXFjI/AQEHBiMhJicmJwEFESERJQV5EjEb+2wbMhMTFAIFCBsSMhsElhgtEgcaCQUCE0P9owwgDP2jHBQElBQa/IaxI1ojsgFuBA0S+2oTDQICAST+0ATy/tEDKhMVFRQUMhv9LAUECwsmHBQVEhAHGyULDAUFAtQbM4X+IgoKAd43FB0BHRP+MIwcHIz+3wUNAQ4CAwFY8AHf/iHwAAAAAAYAAP9pBHEDUwA+AEgAVQBkAGsAdgFfS7AJUFhAG2sBAgFoRAIMAmcBCwhFAQMLGQEGA2YBCQUGTBtLsApQWEAbawECAWhEAgwCZwELCEUBAwsZAQcDZgEJBQZMG0AbawECAWhEAgwCZwELCEUBAwsZAQYDZgEJBQZMWVlLsAlQWEBAAAECAYUAAgAMAAIMZwAAAA4NAA5nAA0ACAsNCGkPAQsKBwIDBgsDZwAGAAUJBgVpAAkEBAlZAAkJBGEABAkEURtLsApQWEBHAAECAYUAAwsHCwMHgAACAAwAAgxnAAAADg0ADmcADQAICw0IaQ8BCwoBBwYLB2cABgAFCQYFaQAJBAQJWQAJCQRhAAQJBFEbQEAAAQIBhQACAAwAAgxnAAAADg0ADmcADQAICw0IaQ8BCwoHAgMGCwNnAAYABQkGBWkACQQECVkACQkEYQAECQRRWVlAHFdWdHNybGFbVmRXZFVUT0wpESMjNycyIyIQBh8rATEmKwERNCYjIgcFFSEiDgEdARQeATsBFjMVFBcxFjsBMjY9ATMyNjQmKwE1MzY3BRY2NzY3ETMyNzE2PQE0BTU0PgE3ES4CARUUBisBIicxJj0BMzcrATQ1ETQ1MTYXMzIzEQERJREwMSUTFgcxBicjNTMWBwRcFBw9Ew4JB/5G/vFDcEJCcUIOAwQYGSIzIjEMCw8PCwwhCQgBrAwYBgMBPRwUFPu+LlAxMVAuAYESDTMNCglyU/ICAQHyAQEBqv6LAXWBAQEBAj0/AQECARQBHA4TBMUEQnBDB0JwQgLWIhkYMSJxDxYPMAEDwQUJCwcHAR0UExx/HGQHMlU4Bv5vBjhV/vGLDRMJCg3VNAEBAYcBAQEB/nYBLv4wpwGLqP5SAgEBAYcBAgAAAAABAAD/1wMfAuUACwAGswcBATIrJQcnByc3JzcXNxcHAx+c6uuc6uqc6+qc6nSd6+ud6uqd6+ud6gAAAAABAAAAAAMxAlIADgASQA8MBQIASQEBAAB2FBICBhgrETQ2MhcJATYyFhQHCQEmJDQQATEBMBIyJBL+ev55EgIVGSQS/tEBLxIkMhL+eQGHEwAAAAABAAAAAAMwAlkADgASQA8KAwIASgEBAAB2FBcCBhgrNTQ3CQEWFAYiJwkBBiImEgGHAYYRIzQR/tH+zxIyJKcaEQGH/nkRNCMRATH+zxEjAAMAAP9tA9sDUgAgAEAAfQBNQEp4KikoDQUCBA8BAQICTA4BAUkABAMCAwQCgAUBAAADBAADaQYBAgEBAlkGAQICAWEAAQIBUSIhAQBGRDc2IUAiQBcVACABIAcGFisBIgcGBwYVFBcWFxYfAQMlFxYXFhcWMzI3Njc2AicmJyYDIicmJyYvAQc3JyYnJicmNTQ3Njc2MhcWFxYUBwYHBgE2NzY7ARcWHwEWFxYPAQYUFxYXFhcWFxYXFjc2PwI+ARcWHwEWHQEWBwYHDgEnJicmJyYnJjUmNzY3NgH0hXFuQUILCBAKDQtSAQoSFholJTAug3FvQUMBQ0JtcYMrLSQjGRcRmjEMDwwSCgw3Nlxg3V9dNjg4Nl1f/toEAwkEJwYGBCkDAQEGIAIECA8VFhgcGhILBwQGJQMECgYLKy8FAQMEERZKFyonQihkIxQCAwMJDANSQkFucYUtMigpHRsV/v9WCQsJDQgJQkFtcgEHcW5AQvyFCwgQCg0LMpQTGRsnJzEubl9cNzg3Nlxg4GBcNzcCagMCBQMEBl4IBgkIJgMJBg8UHBMVEg8GAwMCCCsDAwEEBBUYBAYEEgwXExYWCAoRGyZfRi4nCBIVEhYABP/+/2gD6gNVAEUAhgCeALcAQEA9qykCBAMBTAAEAwUDBAWAAAUCAwUCfgAAAAMEAANpAAIBAQJZAAICAWEAAQIBUaemm5piYU5MOzggHwYGFislLwEmJyYGBwYHDgEnJicmJzUmJyY0PwE2NzYmJyYnLgEHBg8BBgcOARcxFBYVFhcWFxYXFhcWFxYXMzI3Nj8CPgInJgcGBwYHBicxJicmJyYnJi8BJicmNzY/ATY3NjcWHwIWFAcGDwIOARcWFxYXFhcWFxY2PwI2NzYWHwEWFxYUEy4CJyYOARYXMRceARcWFx4BNzI2JyYlFhceARceATsBPgE1MTQnJicuAScmDgEWA2EiTA0RHDwVEigCBgIuJz8xFhAEBBQdDhsCHDk9G0sdDBYaFQgSEgECAgUXNCMsV3JXZEJHCDAmEQ8KDRwaCwMFRhgyCQoWGDc0cmB6VAsTCx0PDwcFERMgEgsQEQtPIQsLHQ4VBgwGBhAZLDc/UA0OChMHICYEBQkXBxg8HwyBI3SWVA0XBQ8NIE+FLzwRAhMMDxMDCv5AJCA2SQoCEgwDDRECAgQYiFsNFQYQcCNLDQkNDBcRKAMBAhciM0ECHCAFAwMUHQ8cThs7OxsDGQoWGhUMFzgdAwwDFRVhVjw3blE/KBwBHQ4RCQ4cHiUTJ0kaMgcFCwICFS1MYYMRJBM1Oy4wFxETIREMAgENUCAJHgkdDRUFCh8OKCM+Mz8oBwMCBwggJQUDCAIJGDshCR8CDlB+Uw4CDhoWAwcTW0JUZQwQARYOPmoGEBthPAsPAhMNBgMNDVl7DwIOGxcAAgAA/3ADpwNMACIAOwAuQCs6JyUjBAIBAUwiAQIASQABAgGFAAIAAAJXAAICAGEAAAIAUTc0LywUAwYXKwU1NCYjLgEnJicmJyY3PgE3PgE3NhYXHgEXFgYHBgcGBwYHATERJwc1NCcuASMhIgYXFRQWNyEyNic1FwH7AQNUmjtMHgoDBAQFKCIviE9NmkNOZxALCxUhPFh2LTABAQFsAgUdEv7nFyEBIhgBEhgiAR+QmAMCAUE7R2QgIScnOWouQlYPEBwpLpNZO3c4WkpsSh0ZAZQBLANuQAoJEhcjF9oYIgEiGEIeAAYAAAAABhMB+QAMABUAJAAwAEcAdQEOS7AKUFhAFWdiAgoAOQECCkQBAQJYSzQDBQEETBtLsAtQWEASZ2I5AwIARAEBAlhLNAMFAQNMG0AVZ2ICCgA5AQIKRAEBAlhLNAMFAQRMWVlLsApQWEAuAAoAAgAKAoANDAcDAA8IBAMCAQACaQYDAgEFBQFZBgMCAQEFYQ4LCRAEBQEFURtLsAtQWEAnDQwHAwAPCggEBAIBAAJpBgMCAQUFAVkGAwIBAQVhDgsJEAQFAQVRG0AuAAoAAgAKAoANDAcDAA8IBAMCAQACaQYDAgEFBQFZBgMCAQEFYQ4LCRAEBQEFUVlZQCQzMXNybGppaGZkXFpUU09NQ0E+PDg2MUczRysqJyYTGTIRBhkrAS4BIzEiDgEeAT4BJgcGLgE0PgEWFCUuAQ4CHgI2Nz4BNCYHBi4BND4BFx4BFAYFOwE1LgErATc1NCYjIRUeARczBxUeASUWHQEeATsBNTQ+ATIeAR0BHgE7ATUuAgYHLgEHIgcmIxEzMjY9ATQ+ATIWFwKYGD4hPF0XOW9zQwxaHlM7O1M7AXQhVldBFxdBV1YhGBoaSB5TOztTHg4QEPykEvwCHRSoyh0V/vIBHRSpygEdBJUIAh0UEREfJCARAh4VEAEvTlEcFDYdKSIaIhEVHRIeJB4KAcIYGU12aS4jZHiVHgE7UzsBPFOhIBcXQVdXQRcXIBg+RD6nHgE7UzsBHg4lKSVsERQbyxEVHREUHQHKERQc6hATlxQcyhIfExIgEpoVG8gqRB0THxYYARcX/rAdFZgSHxERDwAAAAMAAP96A6oDQwAcAFcAdADmQBxaAQILDAEGAW8TAgQHYQUCBQQbAQMJaAENAAZMS7AMUFhASQAHCAQIBwSAAAQFBQRwDwEKAAIBCgJpAAsAAQYLAWkABgAIBwYIaQAFAAkDBQlqDgEADQwAWQADAA0MAw1pDgEAAAxhAAwADFEbQEoABwgECAcEgAAEBQgEBX4PAQoAAgEKAmkACwABBgsBaQAGAAgHBghpAAUACQMFCWoOAQANDABZAAMADQwDDWkOAQAADGEADAAMUVlAJ1lYAQBraWdlXVtYdFl0VVNHRUE/OjgnJSEfGhgPDQsJABwBHBAGFisFMjY3NCc2NTQmIyIHJiMiBgcUFwYVFBcWMzI3FgE0NhcyFxYXFjMyNjc0LgIvASYjJicuATc0NjMyFxYVFAYHIiYvASYjIgYVFBcWFxYXFhUUBiciJyYTMhc2MzIAFRQHFhUUBiMiJwYjIgA1NDcmNTQ3NgJ5UnYBFQfJkR8dMjtUdAEdCGdlkREvKv7IHBYkDwUQFzgnOAEIHAoVGBQDNCgiMAFuUlg0LB4UDhQEDRdCITJpCkNLGQxyWII1FiVEOhwPuwEIBRKzfj4zExu8/vYEGFhaH3xULTEnJZXRByF6VDswJSKTa2kGGQEVFBwBKwUgHyAgDhQMCAUGBgsSDjorRUQpKSYUHgEMBhU2HBUsEQISGy0aJUtQAVAjAmscA/7uvRQtNDV/uBUDARG+Gh03RH9aXQAAAQAAAAEAAO0xHttfDzz1AA8D6AAAAADcZ0dJAAAAANxnR0r//v9oBhMDVQAAAAgAAgAAAAAAAAABAAADUv9qAAAGTf/+//0GEwABAAAAAAAAAAAAAAAAAAAADAPoAAAEcP//BaD//gRwAAADMQAAAzEAAAMwAAAD2AAAA+n//gPpAAAGTQAAA6oAAAAAAAAAqgFAApICsALaAwID6gUcBZAGwgfaAAAAAQAAAAwAuAAGAAAAAAACACIASwCNAAAAoQ4MAAAAAAAAABIA3gABAAAAAAAAADUAAAABAAAAAAABAAgANQABAAAAAAACAAcAPQABAAAAAAADAAgARAABAAAAAAAEAAgATAABAAAAAAAFAAsAVAABAAAAAAAGAAgAXwABAAAAAAAKACsAZwABAAAAAAALABMAkgADAAEECQAAAGoApQADAAEECQABABABDwADAAEECQACAA4BHwADAAEECQADABABLQADAAEECQAEABABPQADAAEECQAFABYBTQADAAEECQAGABABYwADAAEECQAKAFYBcwADAAEECQALACYByUNvcHlyaWdodCAoQykgMjAyMSBieSBvcmlnaW5hbCBhdXRob3JzIEAgZm9udGVsbG8uY29tZm9udGVsbG9SZWd1bGFyZm9udGVsbG9mb250ZWxsb1ZlcnNpb24gMS4wZm9udGVsbG9HZW5lcmF0ZWQgYnkgc3ZnMnR0ZiBmcm9tIEZvbnRlbGxvIHByb2plY3QuaHR0cDovL2ZvbnRlbGxvLmNvbQBDAG8AcAB5AHIAaQBnAGgAdAAgACgAQwApACAAMgAwADIAMQAgAGIAeQAgAG8AcgBpAGcAaQBuAGEAbAAgAGEAdQB0AGgAbwByAHMAIABAACAAZgBvAG4AdABlAGwAbABvAC4AYwBvAG0AZgBvAG4AdABlAGwAbABvAFIAZQBnAHUAbABhAHIAZgBvAG4AdABlAGwAbABvAGYAbwBuAHQAZQBsAGwAbwBWAGUAcgBzAGkAbwBuACAAMQAuADAAZgBvAG4AdABlAGwAbABvAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAAcwB2AGcAMgB0AHQAZgAgAGYAcgBvAG0AIABGAG8AbgB0AGUAbABsAG8AIABwAHIAbwBqAGUAYwB0AC4AaAB0AHQAcAA6AC8ALwBmAG8AbgB0AGUAbABsAG8ALgBjAG8AbQAAAAACAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBAgEDAQQBBQEGAQcBCAEJAQoBCwEMAQ0AB21lc3NhZ2UJc3Vic2NyaWJlBXByb21vBmNhbmNlbARkb3duAnVwCHdoYXRzYXBwBGNhbGwEbWVldAR6b29tBXNreXBlAAAAAAABAAH//wAPAAAAAAAAAAAAAAAAAAAAALAALCCwAFVYRVkgIEu4AA5RS7AGU1pYsDQbsChZYGYgilVYsAIlYbkIAAgAY2MjYhshIbAAWbAAQyNEsgABAENgQi2wASywIGBmLbACLCMhIyEtsAMsIGSzAxQVAEJDsBNDIGBgQrECFENCsSUDQ7ACQ1R4ILAMI7ACQ0NhZLAEUHiyAgICQ2BCsCFlHCGwAkNDsg4VAUIcILACQyNCshMBE0NgQiOwAFBYZVmyFgECQ2BCLbAELLADK7AVQ1gjISMhsBZDQyOwAFBYZVkbIGQgsMBQsAQmWrIoAQ1DRWNFsAZFWCGwAyVZUltYISMhG4pYILBQUFghsEBZGyCwOFBYIbA4WVkgsQENQ0VjRWFksChQWCGxAQ1DRWNFILAwUFghsDBZGyCwwFBYIGYgiophILAKUFhgGyCwIFBYIbAKYBsgsDZQWCGwNmAbYFlZWRuwAiWwDENjsABSWLAAS7AKUFghsAxDG0uwHlBYIbAeS2G4EABjsAxDY7gFAGJZWWRhWbABK1lZI7AAUFhlWVkgZLAWQyNCWS2wBSwgRSCwBCVhZCCwB0NQWLAHI0KwCCNCGyEhWbABYC2wBiwjISMhsAMrIGSxB2JCILAII0KwBkVYG7EBDUNFY7EBDUOwAGBFY7AFKiEgsAhDIIogirABK7EwBSWwBCZRWGBQG2FSWVgjWSFZILBAU1iwASsbIbBAWSOwAFBYZVktsAcssAlDK7IAAgBDYEItsAgssAkjQiMgsAAjQmGwAmJmsAFjsAFgsAcqLbAJLCAgRSCwDkNjuAQAYiCwAFBYsEBgWWawAWNgRLABYC2wCiyyCQ4AQ0VCKiGyAAEAQ2BCLbALLLAAQyNEsgABAENgQi2wDCwgIEUgsAErI7AAQ7AEJWAgRYojYSBkILAgUFghsAAbsDBQWLAgG7BAWVkjsABQWGVZsAMlI2FERLABYC2wDSwgIEUgsAErI7AAQ7AEJWAgRYojYSBksCRQWLAAG7BAWSOwAFBYZVmwAyUjYUREsAFgLbAOLCCwACNCsw0MAANFUFghGyMhWSohLbAPLLECAkWwZGFELbAQLLABYCAgsA9DSrAAUFggsA8jQlmwEENKsABSWCCwECNCWS2wESwgsBBiZrABYyC4BABjiiNhsBFDYCCKYCCwESNCIy2wEixLVFixBGREWSSwDWUjeC2wEyxLUVhLU1ixBGREWRshWSSwE2UjeC2wFCyxABJDVVixEhJDsAFhQrARK1mwAEOwAiVCsQ8CJUKxEAIlQrABFiMgsAMlUFixAQBDYLAEJUKKiiCKI2GwECohI7ABYSCKI2GwECohG7EBAENgsAIlQrACJWGwECohWbAPQ0ewEENHYLACYiCwAFBYsEBgWWawAWMgsA5DY7gEAGIgsABQWLBAYFlmsAFjYLEAABMjRLABQ7AAPrIBAQFDYEItsBUsALEAAkVUWLASI0IgRbAOI0KwDSOwAGBCIGC3GBgBABEAEwBCQkKKYCCwFCNCsAFhsRQIK7CLKxsiWS2wFiyxABUrLbAXLLEBFSstsBgssQIVKy2wGSyxAxUrLbAaLLEEFSstsBsssQUVKy2wHCyxBhUrLbAdLLEHFSstsB4ssQgVKy2wHyyxCRUrLbArLCMgsBBiZrABY7AGYEtUWCMgLrABXRshIVktsCwsIyCwEGJmsAFjsBZgS1RYIyAusAFxGyEhWS2wLSwjILAQYmawAWOwJmBLVFgjIC6wAXIbISFZLbAgLACwDyuxAAJFVFiwEiNCIEWwDiNCsA0jsABgQiBgsAFhtRgYAQARAEJCimCxFAgrsIsrGyJZLbAhLLEAICstsCIssQEgKy2wIyyxAiArLbAkLLEDICstsCUssQQgKy2wJiyxBSArLbAnLLEGICstsCgssQcgKy2wKSyxCCArLbAqLLEJICstsC4sIDywAWAtsC8sIGCwGGAgQyOwAWBDsAIlYbABYLAuKiEtsDAssC8rsC8qLbAxLCAgRyAgsA5DY7gEAGIgsABQWLBAYFlmsAFjYCNhOCMgilVYIEcgILAOQ2O4BABiILAAUFiwQGBZZrABY2AjYTgbIVktsDIsALEAAkVUWLEOBkVCsAEWsDEqsQUBFUVYMFkbIlktsDMsALAPK7EAAkVUWLEOBkVCsAEWsDEqsQUBFUVYMFkbIlktsDQsIDWwAWAtsDUsALEOBkVCsAFFY7gEAGIgsABQWLBAYFlmsAFjsAErsA5DY7gEAGIgsABQWLBAYFlmsAFjsAErsAAWtAAAAAAARD4jOLE0ARUqIS2wNiwgPCBHILAOQ2O4BABiILAAUFiwQGBZZrABY2CwAENhOC2wNywuFzwtsDgsIDwgRyCwDkNjuAQAYiCwAFBYsEBgWWawAWNgsABDYbABQ2M4LbA5LLECABYlIC4gR7AAI0KwAiVJiopHI0cjYSBYYhshWbABI0KyOAEBFRQqLbA6LLAAFrAXI0KwBCWwBCVHI0cjYbEMAEKwC0MrZYouIyAgPIo4LbA7LLAAFrAXI0KwBCWwBCUgLkcjRyNhILAGI0KxDABCsAtDKyCwYFBYILBAUVizBCAFIBuzBCYFGllCQiMgsApDIIojRyNHI2EjRmCwBkOwAmIgsABQWLBAYFlmsAFjYCCwASsgiophILAEQ2BkI7AFQ2FkUFiwBENhG7AFQ2BZsAMlsAJiILAAUFiwQGBZZrABY2EjICCwBCYjRmE4GyOwCkNGsAIlsApDRyNHI2FgILAGQ7ACYiCwAFBYsEBgWWawAWNgIyCwASsjsAZDYLABK7AFJWGwBSWwAmIgsABQWLBAYFlmsAFjsAQmYSCwBCVgZCOwAyVgZFBYIRsjIVkjICCwBCYjRmE4WS2wPCywABawFyNCICAgsAUmIC5HI0cjYSM8OC2wPSywABawFyNCILAKI0IgICBGI0ewASsjYTgtsD4ssAAWsBcjQrADJbACJUcjRyNhsABUWC4gPCMhG7ACJbACJUcjRyNhILAFJbAEJUcjRyNhsAYlsAUlSbACJWG5CAAIAGNjIyBYYhshWWO4BABiILAAUFiwQGBZZrABY2AjLiMgIDyKOCMhWS2wPyywABawFyNCILAKQyAuRyNHI2EgYLAgYGawAmIgsABQWLBAYFlmsAFjIyAgPIo4LbBALCMgLkawAiVGsBdDWFAbUllYIDxZLrEwARQrLbBBLCMgLkawAiVGsBdDWFIbUFlYIDxZLrEwARQrLbBCLCMgLkawAiVGsBdDWFAbUllYIDxZIyAuRrACJUawF0NYUhtQWVggPFkusTABFCstsEMssDorIyAuRrACJUawF0NYUBtSWVggPFkusTABFCstsEQssDsriiAgPLAGI0KKOCMgLkawAiVGsBdDWFAbUllYIDxZLrEwARQrsAZDLrAwKy2wRSywABawBCWwBCYgICBGI0dhsAwjQi5HI0cjYbALQysjIDwgLiM4sTABFCstsEYssQoEJUKwABawBCWwBCUgLkcjRyNhILAGI0KxDABCsAtDKyCwYFBYILBAUVizBCAFIBuzBCYFGllCQiMgR7AGQ7ACYiCwAFBYsEBgWWawAWNgILABKyCKimEgsARDYGQjsAVDYWRQWLAEQ2EbsAVDYFmwAyWwAmIgsABQWLBAYFlmsAFjYbACJUZhOCMgPCM4GyEgIEYjR7ABKyNhOCFZsTABFCstsEcssQA6Ky6xMAEUKy2wSCyxADsrISMgIDywBiNCIzixMAEUK7AGQy6wMCstsEkssAAVIEewACNCsgABARUUEy6wNiotsEossAAVIEewACNCsgABARUUEy6wNiotsEsssQABFBOwNyotsEwssDkqLbBNLLAAFkUjIC4gRoojYTixMAEUKy2wTiywCiNCsE0rLbBPLLIAAEYrLbBQLLIAAUYrLbBRLLIBAEYrLbBSLLIBAUYrLbBTLLIAAEcrLbBULLIAAUcrLbBVLLIBAEcrLbBWLLIBAUcrLbBXLLMAAABDKy2wWCyzAAEAQystsFksswEAAEMrLbBaLLMBAQBDKy2wWyyzAAABQystsFwsswABAUMrLbBdLLMBAAFDKy2wXiyzAQEBQystsF8ssgAARSstsGAssgABRSstsGEssgEARSstsGIssgEBRSstsGMssgAASCstsGQssgABSCstsGUssgEASCstsGYssgEBSCstsGcsswAAAEQrLbBoLLMAAQBEKy2waSyzAQAARCstsGosswEBAEQrLbBrLLMAAAFEKy2wbCyzAAEBRCstsG0sswEAAUQrLbBuLLMBAQFEKy2wbyyxADwrLrEwARQrLbBwLLEAPCuwQCstsHEssQA8K7BBKy2wciywABaxADwrsEIrLbBzLLEBPCuwQCstsHQssQE8K7BBKy2wdSywABaxATwrsEIrLbB2LLEAPSsusTABFCstsHcssQA9K7BAKy2weCyxAD0rsEErLbB5LLEAPSuwQistsHossQE9K7BAKy2weyyxAT0rsEErLbB8LLEBPSuwQistsH0ssQA+Ky6xMAEUKy2wfiyxAD4rsEArLbB/LLEAPiuwQSstsIAssQA+K7BCKy2wgSyxAT4rsEArLbCCLLEBPiuwQSstsIMssQE+K7BCKy2whCyxAD8rLrEwARQrLbCFLLEAPyuwQCstsIYssQA/K7BBKy2whyyxAD8rsEIrLbCILLEBPyuwQCstsIkssQE/K7BBKy2wiiyxAT8rsEIrLbCLLLILAANFUFiwBhuyBAIDRVgjIRshWVlCK7AIZbADJFB4sQUBFUVYMFktAEu4AMhSWLEBAY5ZsAG5CAAIAGNwsQAHQrEAACqxAAdCsQAKKrEAB0KxAAoqsQAHQrkAAAALKrEAB0K5AAAACyq5AAMAAESxJAGIUViwQIhYuQADAGREsSgBiFFYuAgAiFi5AAMAAERZG7EnAYhRWLoIgAABBECIY1RYuQADAABEWVlZWVmxAA4quAH/hbAEjbECAESzBWQGAERE') format('truetype');font-weight:400;font-style:normal}@-webkit-keyframes wsew-bounceInLeft{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(-3000px,0);transform:translate(-3000px,0)}40%{opacity:1;-webkit-transform:translate(35px,0);transform:translate(35px,0)}65%{-webkit-transform:translate(-15px,0);transform:translate(-15px,0)}90%{-webkit-transform:translate(5px,0);transform:translate(5px,0)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-bounceInLeft{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(-3000px,0);transform:translate(-3000px,0)}40%{opacity:1;-webkit-transform:translate(35px,0);transform:translate(35px,0)}65%{-webkit-transform:translate(-15px,0);transform:translate(-15px,0)}90%{-webkit-transform:translate(5px,0);transform:translate(5px,0)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-bounceInRight{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(3000px,0);transform:translate(3000px,0)}40%{opacity:1;-webkit-transform:translate(-35px,0);transform:translate(-35px,0)}65%{-webkit-transform:translate(15px,0);transform:translate(15px,0)}90%{-webkit-transform:translate(-5px,0);transform:translate(-5px,0)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-bounceInRight{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(3000px,0);transform:translate(3000px,0)}40%{opacity:1;-webkit-transform:translate(-35px,0);transform:translate(-35px,0)}65%{-webkit-transform:translate(15px,0);transform:translate(15px,0)}90%{-webkit-transform:translate(-5px,0);transform:translate(-5px,0)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-bounceInUp{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(0,700px);transform:translate(0,700px)}40%{opacity:1;-webkit-transform:translate(0,-35px);transform:translate(0,-35px)}65%{-webkit-transform:translate(0,15px);transform:translate(0,15px)}90%{-webkit-transform:translate(0,-5px);transform:translate(0,-5px)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-bounceInUp{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(0,700px);transform:translate(0,700px)}40%{opacity:1;-webkit-transform:translate(0,-35px);transform:translate(0,-35px)}65%{-webkit-transform:translate(0,15px);transform:translate(0,15px)}90%{-webkit-transform:translate(0,-5px);transform:translate(0,-5px)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-bounceInDown{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(0,-700px);transform:translate(0,-700px)}40%{opacity:1;-webkit-transform:translate(0,35px);transform:translate(0,35px)}65%{-webkit-transform:translate(0,-15px);transform:translate(0,-15px)}90%{-webkit-transform:translate(0,5px);transform:translate(0,5px)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-bounceInDown{0%,100%,40%,65%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate(0,-700px);transform:translate(0,-700px)}40%{opacity:1;-webkit-transform:translate(0,35px);transform:translate(0,35px)}65%{-webkit-transform:translate(0,-15px);transform:translate(0,-15px)}90%{-webkit-transform:translate(0,5px);transform:translate(0,5px)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-bounceOutLeft{20%{opacity:1;-webkit-transform:translate(20px,0);transform:translate(20px,0)}100%{opacity:0;-webkit-transform:translate(-2000px,0);transform:translate(-2000px,0)}}@keyframes wsew-bounceOutLeft{20%{opacity:1;-webkit-transform:translate(20px,0);transform:translate(20px,0)}100%{opacity:0;-webkit-transform:translate(-2000px,0);transform:translate(-2000px,0)}}@-webkit-keyframes wsew-bounceOutRight{20%{opacity:1;-webkit-transform:translate(-20px,0);transform:translate(-20px,0)}100%{opacity:0;-webkit-transform:translate(2000px,0);transform:translate(2000px,0)}}@keyframes wsew-bounceOutRight{20%{opacity:1;-webkit-transform:translate(-20px,0);transform:translate(-20px,0)}100%{opacity:0;-webkit-transform:translate(2000px,0);transform:translate(2000px,0)}}@-webkit-keyframes wsew-slideOutLeft{100%{-webkit-transform:translate(-100%,0);transform:translate(-100%,0)}}@keyframes wsew-slideOutLeft{100%{-webkit-transform:translate(-100%,0);transform:translate(-100%,0)}}@-webkit-keyframes wsew-slideOutRight{100%{-webkit-transform:translate(100%,0);transform:translate(100%,0)}}@keyframes wsew-slideOutRight{100%{-webkit-transform:translate(100%,0);transform:translate(100%,0)}}@-webkit-keyframes wsew-slideInLeft{0%{-webkit-transform:translate(-100%,0);transform:translate(-100%,0)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-slideInLeft{0%{-webkit-transform:translate(-100%,0);transform:translate(-100%,0)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-slideInRight{0%{-webkit-transform:translate(100%,0);transform:translate(100%,0)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-slideInRight{0%{-webkit-transform:translate(100%,0);transform:translate(100%,0)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes wsew-fadeIn{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes wsew-fadeInLeft{0%{opacity:0;-webkit-transform:translate(-60%,0);transform:translate(-60%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes wsew-fadeInLeft{0%{opacity:0;-webkit-transform:translate(-60%,0);transform:translate(-60%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-fadeInRight{0%{opacity:0;-webkit-transform:translate(60%,0);transform:translate(60%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes wsew-fadeInRight{0%{opacity:0;-webkit-transform:translate(60%,0);transform:translate(60%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-fadeInUp{0%{opacity:0;-webkit-transform:translate(0,60%);transform:translate(0,60%)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes wsew-fadeInUp{0%{opacity:0;-webkit-transform:translate(0,60%);transform:translate(0,60%)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-fadeInDown{0%{opacity:0;-webkit-transform:translate(0,-60%);transform:translate(0,-60%)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes wsew-fadeInDown{0%{opacity:0;-webkit-transform:translate(0,-60%);transform:translate(0,-60%)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes wsew-fadeOut{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes wsew-zoomIn{0%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}50%{opacity:1}100%{-webkit-transform:none;transform:none}}@keyframes wsew-zoomIn{0%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}50%{opacity:1}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}100%{opacity:0}}@keyframes wsew-zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}100%{opacity:0}}@-webkit-keyframes wsew-swing{0%{opacity:0}20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{opacity:1;-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}100%{-webkit-transform:rotate3d(0,0,1,0deg);transform:rotate3d(0,0,1,0deg)}}@keyframes wsew-swing{0%{opacity:0}20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{opacity:1;-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}100%{-webkit-transform:rotate3d(0,0,1,0deg);transform:rotate3d(0,0,1,0deg)}}@-webkit-keyframes wsew-bounceIn{0%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}30%{-webkit-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}55%{opacity:1;-webkit-transform:scale(.8,.8);transform:scale(.8,.8)}72%{-webkit-transform:scale(1.13,1.13);transform:scale(1.13,1.13)}87%{-webkit-transform:scale(.97,.97);transform:scale(.97,.97)}100%{-webkit-transform:none;transform:none}}@keyframes wsew-bounceIn{0%{opacity:0;-webkit-transform:scale(.3,.3);transform:scale(.3,.3)}30%{-webkit-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}55%{opacity:1;-webkit-transform:scale(.8,.8);transform:scale(.8,.8)}72%{-webkit-transform:scale(1.13,1.13);transform:scale(1.13,1.13)}87%{-webkit-transform:scale(.97,.97);transform:scale(.97,.97)}100%{-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-flipTy{0%{-webkit-transition-timing-function:ease-in;transition-timing-function:ease-in;-webkit-transform:rotateY(180deg) scale(.4,.4);transform:rotateY(180deg) scale(.4,.4)}100%{-webkit-transform:rotateY(0) scale(1,1);transform:rotateY(0) scale(1,1)}}@keyframes wsew-flipTy{0%{-webkit-transition-timing-function:ease-in;transition-timing-function:ease-in;-webkit-transform:rotateY(180deg) scale(.4,.4);transform:rotateY(180deg) scale(.4,.4)}100%{-webkit-transform:rotateY(0) scale(1,1);transform:rotateY(0) scale(1,1)}}@-webkit-keyframes wsew-flip{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}100%{-webkit-transform:rotateY(0);transform:rotateY(0)}}@keyframes wsew-flip{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}100%{-webkit-transform:rotateY(0);transform:rotateY(0)}}@-webkit-keyframes wsew-revealTouch{0%{margin-top:-200px}100%{margin-top:0}}@keyframes wsew-revealTouch{0%{margin-top:-200px}100%{margin-top:0}}@-webkit-keyframes wsew-typing{0%,100%,80%{opacity:0;-webkit-transform:scale(.8);transform:scale(.8)}40%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes wsew-typing{0%,100%,80%{opacity:0;-webkit-transform:scale(.8);transform:scale(.8)}40%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes wsew-notify{0%{-webkit-transform:scale(.1,.1);transform:scale(.1,.1);opacity:.3}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes wsew-notify{0%{-webkit-transform:scale(.1,.1);transform:scale(.1,.1);opacity:.3}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes wsew-highlight{100%{-webkit-transform:none;transform:none}0%,99%{-webkit-transform:translate(0,0);transform:translate(0,0)}20%{-webkit-transform:translate(-5px,0);transform:translate(-5px,0)}60%{-webkit-transform:translate(-2.5px,0);transform:translate(-2.5px,0)}40%{-webkit-transform:translate(5px,0);transform:translate(5px,0)}80%{-webkit-transform:translate(2.5px,0);transform:translate(2.5px,0)}}@keyframes wsew-highlight{100%{-webkit-transform:none;transform:none}0%,99%{-webkit-transform:translate(0,0);transform:translate(0,0)}20%{-webkit-transform:translate(-5px,0);transform:translate(-5px,0)}60%{-webkit-transform:translate(-2.5px,0);transform:translate(-2.5px,0)}40%{-webkit-transform:translate(5px,0);transform:translate(5px,0)}80%{-webkit-transform:translate(2.5px,0);transform:translate(2.5px,0)}}body.ws57xzb{overflow:hidden!important}body.w-w7x4k2{overflow:hidden!important}.whxo9qn{cursor:pointer}body.w8ne2h4:before{-webkit-transition:height 500ms cubic-bezier(.455,.03,.515,.955);transition:height 500ms cubic-bezier(.455,.03,.515,.955);content:' ';display:block;visibility:hidden;height:0!important;padding:0;margin:0}.w-bzyzeh.w8ne2h4:before{-webkit-transition:none!important;transition:none!important}body.w8ne2h4.w8su61o:before{height:42px!important}body.w8ne2h4.w-bkk0mt:before{-webkit-transition:none!important;transition:none!important}w-div{display:block;vertical-align:inherit}.wu0s4ik,.wh7o9re{-webkit-animation-name:wsew-highlight!important;animation-name:wsew-highlight!important;-webkit-animation-duration:600ms!important;animation-duration:600ms!important;-webkit-font-smoothing:subpixel-antialiased;-webkit-transform-origin:left;-ms-transform-origin:left;transform-origin:left}.w-lyii80{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.w-bkk0mt *{-webkit-transition:none!important;transition:none!important}</style><meta http-equiv="origin-trial" content="A6tVmVPNv7ei4ErCylDEwnE6N9RJTv0xr0vkb/AAsDo1pT2LYjQVGXq5JSDAHLx7TB8jjHfD2e8qlu3dZMP+ew8AAABveyJvcmlnaW4iOiJodHRwczovL3MucGluaW1nLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+<body class="page-login pageType-ContentPage template-pages-LoginPageTemplate pageLabel-login smartedit-page-uid-login smartedit-page-uuid-eyJpdGVtSWQiOiJsb2dpbiIsImNhdGFsb2dJZCI6ImNvcm9uYS1jb0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-corona-coContentCatalog/Online  language-es">
+	<div class="coc-overlay js-coc-overlay"></div>
+        <div class="yCmsContentSlot promotional-message-wp message-present">
+<div class="yCmsComponent promotional-message-inner secondary">
+<h4><strong>¡Encuentra <a href="https://corona.co/productos/promociones/c/promociones?sort=discount-percentage-desc&amp;q=%3Arelevance%3Acategory%3Amuebles-para-banos#" target="_blank"> aquí muebles de baño </a> con descuento! </strong></h4>
+    </div></div><div class="yCmsContentSlot">
+</div><div class="coc-search-overlay"> </div>
+<header class="coc-header">
+    <div class="hidden-xs hidden-sm menu-tracker"></div>
+    <div class="coc-header-overlay"></div>
+    <div class="container">
+        <nav class="coc-nav">
+            <div class="coc-nav-top-actions hidden-xs hidden-sm">
+                    <div class="yCmsComponent yComponentWrapper">
+<div class="hidden-xs hidden-sm coc-top-menu-links-wp">
+        <div class="coc-top-menu-links">
+            <a href="https://empresa.corona.co" title="Sitio Corporativo" target="_blank" rel="noopener noreferrer">Sitio Corporativo</a><a href="https://centrocorona.corona.co" title="Centros Corona" target="_blank" rel="noopener noreferrer">Centros Corona</a><a href="/grival" title="Grival">Grival</a><a href="https://clubmaestros.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona" title="Club Maestros" target="_blank" rel="noopener noreferrer">Club Maestros</a><a href="/store-finder" title="Mapa de tiendas">Mapa de tiendas</a></div>
+    </div>
+</div><div class="yCmsComponent yComponentWrapper">
+<div class="coc-country-selector">
+        <div class="coc-selected-country js-country-selector-trigger">
+            <div class="coc-country-selected-option">
+                        <span>
+                            <img src="/medias/colombia-flag.svg?context=bWFzdGVyfGltYWdlc3w3MDJ8aW1hZ2Uvc3ZnK3htbHxoNWQvaGE1Lzg3OTYxNjY1MjA4NjIvY29sb21iaWEtZmxhZy5zdmd8YjBmYzk2MjQ0ZWUzMmIxMmJlMDI1ZGRmZDc4Y2Y0N2ZiZTRkMzNmMzM4ZmQ0MDIwYTc2M2NiYzEwMWZiNmUzYQ" alt="Colombia">
+                        </span>
+                    <span class="coc-country-name">
+                            <a href="https://corona.co" title="Colombia">Colombia</a></span>
+                </div>
+            <span class="country-select-arrow">
+                <svg class="icon icon-chevron-down-sm">
+                    <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-down-sm"></use>
+                </svg>
+            </span>
+        </div>
+        <div class="coc-country-selector-options">
+            <div class="coc-country-option">
+                        <span>
+                            <img src="/medias/mexico-flag.svg?context=bWFzdGVyfGltYWdlc3w1ODkzfGltYWdlL3N2Zyt4bWx8aDBjL2hhNi84Nzk2MTY2NTg2Mzk4L21leGljby1mbGFnLnN2Z3w0OGZhYjVlMTI5YTBlNDRkMTJiOWM4NjNhOGU3M2E4NTFjNzMxYTlkNDc0ZTk0ZTE4YWRhZjZhNzJmNWI5M2Ji" alt="México">
+                        </span>
+                        <span class="coc-country-name">
+                            <a href="https://www.coronamexico.com" title="México">México</a></span>
+                    </div>
+                </div>
+    </div>
+</div></div>
+            <div class="coc-nav_top corona-co">
+                <div class="coc-logo">
+                    <div class="yCmsComponent yComponentWrapper">
+<div class="banner__component simple-banner coc-simple-banner">
+    <a href="/"><img title="Corona" alt="Corona" src="/medias/logo-corona.svg?context=bWFzdGVyfGltYWdlc3w1MjY3fGltYWdlL3N2Zyt4bWx8aDU0L2hmOC84Nzk2MTg4MDQ5NDM4L2xvZ28tY29yb25hLnN2Z3w3NDEyYzRhNWZhZGI4ZGMyNjYxY2IzZWQxZTZjYjNkZjRmNWQ0ZjExMDQzMDhjMTQ0ZDMzMjYxZjk2MjQzNzhj"></a>
+        </div>
+
+</div></div>
+                <div class="coc-mega-menu">
+                        <ul class="coc-menu-actions hidden-md hidden-lg">
+            <li class="coc-mega-menu-item coc-menu-action">
+                    <a href="/login">
+					<span>
+						<svg class="icon icon-account">
+							<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-account"></use>
+						</svg>
+					</span>
+                            Ingresa / Regístrate</a>
+                    </li>
+            <li class="coc-mega-menu-item coc-menu-action">
+                        <a href="/tiendas-y-horarios">
+					<span>
+						<svg class="icon icon-location-2">
+							<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-location-2"></use>
+						</svg>
+					</span>
+                                Encontrar tiendas</a>
+                        </li>
+                </ul>
+    <ul class="coc-mega-menu-items " role="menu">
+        <li class="first-level coc-mega-menu-item coc-menu-parent ">
+                    <a href="/productos/c/categories" title="Productos">Productos</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                            <div class="sub-action-icon">
+                                <svg class="icon icon-chevron-right">
+                                     <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+                                 </svg>
+                             </div>
+                        </span>
+                        <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Productos</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/lanzamientos" title="Lanzamientos">Lanzamientos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/c/pisos" title="Pisos">Pisos</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Pisos</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-exteriores/c/pisos-exteriores?sort=stock-priority&amp;q=%3Arelevance&amp;show=Page#" title="Pisos para Exteriores">Pisos para Exteriores</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/guardaescobas/c/guardaescobas" title="Guardaescobas">Guardaescobas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/gres-porcelanico/c/porcelanato?sort=stock-priority&amp;q=%3Arelevance&amp;show=Page#" title="Porcelanato">Porcelanato</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/pisos-maderas/c/pisos-maderas" title="Maderas">Maderas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/pisos-marmolizados-brillantes/c/pisos-marmolizados-brillantes" title="Marmolizados Brillantes">Marmolizados Brillantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/pisos-acabado-mate/c/pisos-acabado-mate" title="Acabado Mate">Acabado Mate</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/pisos-planos/c/pisos-planos" title="Planos">Planos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/pisos-con-alta-resistencia-al-deslizamiento/c/pisos-ard" title="Alta Resistencia al Deslizamiento">Alta Resistencia al Deslizamiento</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/escalones/c/escalones" title="Escalones">Escalones</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/piscinas/c/piscinas" title="Piscinas">Piscinas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/c/decorados" title="Decorados">Decorados</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Decorados</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/hidraulicos/c/hidraulicos" title="Hidráulicos">Hidráulicos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/c/pinturas" title="Pinturas">Pinturas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/mosaicos/c/mosaicos" title="Mosaicos">Mosaicos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/cenefas/c/cenefas" title="Cenefas">Cenefas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/base-decorada/c/base-decorada" title="Base Decorada">Base Decorada</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/pisos/escalones/c/escalones" title="Escalones">Escalones</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/piscinas/c/piscinas" title="Piscinas">Piscinas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/c/paredes" title="Paredes">Paredes</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Paredes</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/c/revestimientos?q=%3Arelevance%3Acategory%3Aparedes%3Acategory%3Aparedes-blancas" title="Paredes blancas">Paredes blancas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/fachaleta/c/fachaleta" title="Fachaletas">Fachaletas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/paredes-marmolizadas-brillantes/c/paredes-marmolizadas-brillantes" title="Marmolizadas Brillantes">Marmolizadas Brillantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/paredes-acabado-mate/c/paredes-acabado-mate" title="Acabado Mate">Acabado Mate</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/paredes-decoradas/c/paredes-decoradas" title="Decoradas">Decoradas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/paredes/paredes-planas/c/paredes-planas" title="Planas">Planas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/mosaicos/c/mosaicos" title="Mosaicos">Mosaicos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/cenefas/c/cenefas" title="Cenefas">Cenefas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/revestimientos/decorados/base-decorada/c/base-decorada" title="Base Decorada">Base Decorada</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/c/pinturas" title="Pinturas">Pinturas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/piscinas/c/piscinas" title="Piscinas">Piscinas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pisos-importados/c/pisos-importados" title="Pisos Importados">Pisos Importados</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/c/pinturas" title="Pinturas">Pinturas</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Pinturas</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-techo/c/pinturas-para-techo" title="Pinturas para Techo">Pinturas para Techo</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-exteriores/c/pinturas-para-exteriores" title="Pinturas para Exteriores">Pinturas para Exteriores</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-interiores/c/pinturas-para-interiores" title="Pinturas para Interiores">Pinturas para Interiores</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-especialidades/c/pinturas-para-especialidades" title="Pinturas para Especialidades">Pinturas para Especialidades</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-maderas/c/pinturas-para-maderas" title="Pinturas para Maderas">Pinturas para Maderas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/esmaltes/c/esmaltes" title="Esmaltes">Esmaltes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/herramientas/c/herramientas" title="Herramientas">Herramientas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/asientos-sanitarios/c/asientos-sanitarios" title="Asientos Sanitarios">Asientos Sanitarios</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/sanitarios/c/sanitarios" title="Sanitarios">Sanitarios</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Sanitarios</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/sanitarios/sanitarios-individuales/c/sanitarios-individuales?sort=price-desc&amp;q=%3Arelevance#" title="Sanitarios Individuales">Sanitarios Individuales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/sanitarios/combos-sanitarios/c/combos-sanitarios" title="Combos Sanitarios">Combos Sanitarios</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/asientos-sanitarios/c/asientos-sanitarios" title="asientos sanitarios link">asientos sanitarios link</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/sanitarios?q=:relevance:uso:institucional" title="Sanitarios Institucionales">Sanitarios Institucionales</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/c/lavamanos" title="Lavamanos">Lavamanos</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Lavamanos</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/lavamanos-individuales" title="Lavamanos Individuales">Lavamanos Individuales</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Lavamanos Individuales</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/lavamanos-clasicos/c/lavamanos-clasicos" title="Lavamanos clásicos">Lavamanos clásicos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/lavamanos-tipo-vessel/c/lavamanos-tipo-vessel" title="Lavamanos vessel">Lavamanos vessel</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/lavamanos-para-incrustar/c/lavamanos-para-incrustar" title="Lavamanos para incrustar">Lavamanos para incrustar</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/lavamanos-para-sobreponer/c/lavamanos-para-sobreponer" title="Lavamanos para Sobreponer">Lavamanos para Sobreponer</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavamanos/estaciones-de-lavado/c/estaciones-de-lavado" title="Estaciones de lavado">Estaciones de lavado</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavamanos/c/griferia-para-lavamanos" title="Griferías para Lavamanos">Griferías para Lavamanos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/muebles-con-lavamanos/c/muebles-con-lavamanos" title="Lavamanos con Mueble">Lavamanos con Mueble</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/muebles-para-vessel/c/muebles-para-vessel" title="Muebles para Lavamanos Vessel">Muebles para Lavamanos Vessel</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/lavamanos-complementos" title="Complementos">Complementos</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Complementos</h2>
+    </li>
+
+    </ul>
+
+</li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/griferias" title="Griferías">Griferías</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Griferías</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavamanos/c/griferia-para-lavamanos" title="Griferías para Lavamanos">Griferías para Lavamanos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavaplatos/c/griferia-para-lavaplatos" title="Griferías para Lavaplatos">Griferías para Lavaplatos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavaderos/c/griferia-para-lavaderos" title="Griferías para Lavaderos">Griferías para Lavaderos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/griferias?q=:relevance:uso:institucional" title="Griferías Institucionales">Griferías Institucionales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/c/duchas" title="Griferías para Duchas">Griferías para Duchas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/c/duchas" title="Duchas">Duchas</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Duchas</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/teleducha/c/teleducha" title="Teleduchas">Teleduchas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/torres-de-ducha/c/torres-de-ducha" title="Torres de Ducha">Torres de Ducha</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/regaderas/c/regaderas" title="Regaderas">Regaderas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/accesorios/accesorios-individuales/c/accesorios-individuales" title="Complementos">Complementos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/regaderas-con-mezclador/c/regaderas-con-mezclador" title="Regaderas con mezclador">Regaderas con mezclador</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/duchas/mezcladores-y-registros/c/mezcladores-y-registros" title="Mezcladores con registros">Mezcladores con registros</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/tinas-e-hidromasajes/c/tinas-e-hidromasajes" title="Tinas e Hidromasajes">Tinas e Hidromasajes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/plomeria/c/plomeria" title="Plomería">Plomería</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Plomería</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/plomeria/canastillas-desagues-y-sifones/c/canastillas-desagues-y-sifones" title="Desagües y Sifones">Desagües y Sifones</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/plomeria/regulaciones-y-acoples/c/regulaciones-y-acoples" title="Regulaciones y Acoples">Regulaciones y Acoples</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/plomeria/valvulas-y-llaves-de-paso/c/valvulas-y-llaves-de-paso" title="Válvulas">Válvulas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/plomeria/repuestos-plomeria/c/repuestos-plomeria" title="Repuestos de Plomería">Repuestos de Plomería</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-cocinas/c/muebles-para-cocinas" title="Muebles para cocina">Muebles para cocina</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Muebles para Cocinas</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/muebles-para-cocinas/cocinas-listas-para-armar/c/cocinas" title="Cocinas listas para armar">Cocinas listas para armar</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-cocinas/alacenas/c/alacenas" title="Alacenas">Alacenas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-cocinas/barras/c/barras" title="Barras">Barras</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavaplatos/c/griferia-para-lavaplatos" title="Griferías para Cocinas">Griferías para Cocinas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavaplatos/c/lavaplatos" title="Lavaplatos">Lavaplatos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/electrodomesticos/c/electrodomesticos" title="electrodomésticos">electrodomésticos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/gasodomesticos/c/gasodomesticos" title="Gasodomésticos">Gasodomésticos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/griferias/griferia-para-lavaderos/c/griferia-para-lavaderos" title="Griferías para lavaderos">Griferías para lavaderos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/lavaderos/c/lavaderos" title="Lavaderos">Lavaderos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://www.vajillascorona.com.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona.co" title="Vajillas">Vajillas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/c/muebles-para-banos" title="Muebles para Baños">Muebles para Baños</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Muebles para Baños</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/gabinetes/c/gabinetes" title="Gabinetes">Gabinetes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/muebles-con-lavamanos/c/muebles-con-lavamanos" title="Muebles con Lavamanos">Muebles con Lavamanos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/muebles-para-vessel/c/muebles-para-vessel" title="Muebles para Lavamanos Vessel">Muebles para Lavamanos Vessel</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/espejos/c/espejos" title="Espejos">Espejos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/muebles-para-banos/muebles-en-combo/c/muebles-en-combo" title="Muebles en Combo">Muebles en Combo</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/materiales-de-construccion" title="Materiales de Construcción">Materiales de Construcción</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Materiales de Construcción</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pegantes/c/pegantes" title="Pegantes">Pegantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/boquillas/c/boquillas" title="Boquillas">Boquillas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/impermeabilizantes/c/impermeabilizantes" title="impermeabilizantes">impermeabilizantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/obra-gris/c/obra-gris" title="Obra gris">Obra gris</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Obra gris</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/obra-gris/morteros/c/morteros" title="Morteros">Morteros</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/obra-gris/aditivos/c/aditivos" title="Aditivos">Aditivos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/obra-gris/sellos/c/sellos" title="Sellos">Sellos</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/acabados/c/acabados" title="Acabados">Acabados</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Acabados</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/acabados/yesos/c/yesos" title="Yesos">Yesos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/acabados/estucos/c/estucos" title="Estucos">Estucos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/acabados/drywall/c/drywall" title="Drywall">Drywall</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/limpiadores/c/limpiadores" title="LIMPIADORES">LIMPIADORES</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/institucional" title="Institucional">Institucional</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Institucional</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/orinales?q=:relevance:uso:institucional" title="Orinales">Orinales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/griferias/griferias-institucionales/c/griferias-institucionales" title="Griferías">Griferías</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/accesorios/c/accesorios?q=%3Arelevance%3Auso%3AInstitucional%3Acategory%3Aaccesorios-individuales" title="Accesorios Individuales">Accesorios Individuales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/accesorios/c/accesorios?q=%3Arelevance%3Auso%3AInstitucional%3Acategory%3Asecadores" title="Secadores">Secadores</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/sanitarios/sanitarios-individuales/c/sanitarios-individuales?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Sanitarios">Sanitarios</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/sanitarios/tazas/c/tazas" title="Tazas">Tazas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/muebles-para-banos/muebles-con-lavamanos/c/muebles-con-lavamanos?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Estaciones de lavado">Estaciones de lavado</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/pisos-institucionales" title="Pisos">Pisos</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Pisos</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-exteriores/c/pisos-exteriores?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Pisos para Exteriores">Pisos para Exteriores</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/guardaescobas?q=:relevance:uso:institucional" title="Guardaescobas">Guardaescobas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/porcelanato/c/porcelanato?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Porcelanato">Porcelanato</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-maderas/c/pisos-maderas?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Maderas">Maderas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/materiales-de-construccion" title="Pegantes y Boquillas">Pegantes y Boquillas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/limpiadores/c/limpiadores" title="LIMPIADORES">LIMPIADORES</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-marmolizados-brillantes/c/pisos-marmolizados-brillantes?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Marmolizados Brillantes">Marmolizados Brillantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/paredes/paredes-acabado-mate/c/paredes-acabado-mate?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Acabado Mate">Acabado Mate</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-planos/c/pisos-planos?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Planos">Planos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/pisos/pisos-con-alta-resistencia-al-deslizamiento/c/pisos-ard?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Alta Resistencia al Deslizamiento">Alta Resistencia al Deslizamiento</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/obra-gris/c/obra-gris" title="Obra gris">Obra gris</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/herramientas/c/herramientas" title="Herramientas">Herramientas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/paredes-institucionales" title="Paredes">Paredes</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Paredes</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/paredes/fachaleta/c/fachaleta?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Fachaletas">Fachaletas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/paredes/paredes-marmolizadas-brillantes/c/paredes-marmolizadas-brillantes?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Marmolizadas Brillantes">Marmolizadas Brillantes</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/paredes-acabado-mate?q=:relevance:uso:institucional" title="Acabado Mate">Acabado Mate</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/paredes/paredes-decoradas/c/paredes-decoradas?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Decoradas">Decoradas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/paredes/paredes-planas/c/paredes-planas?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Planas">Planas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/decorados/mosaicos/c/mosaicos?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Mosaicos">Mosaicos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/c/cenefas?q=:relevance:uso:institucional" title="Cenefas">Cenefas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/revestimientos/decorados/base-decorada/c/base-decorada?q=%3Arelevance%3Auso%3AInstitucional&amp;text=#" title="Base Decorada">Base Decorada</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/c/pinturas" title="Pinturas">Pinturas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/herramientas/c/herramientas" title="Herramientas">Herramientas</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/limpiadores/c/limpiadores" title="LIMPIADORES">LIMPIADORES</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/pinturas/pinturas-para-especialidades/c/pinturas-para-especialidades" title="Pinturas institucionales link">Pinturas institucionales link</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/accesorios-para-banos" title="Accesorios para Baño">Accesorios para Baño</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Accesorios para Baño</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/accesorios/accesorios-individuales/c/accesorios-individuales" title="Accesorios Individuales">Accesorios Individuales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/accesorios/kit-de-accesorios/c/kit-de-accesorios" title="Kits de Accesorios">Kits de Accesorios</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/espejos/c/espejos" title="Espejos">Espejos</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/productos/lavaplatos/c/lavaplatos" title="lavaplatos">lavaplatos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/herramientas/c/herramientas" title="Herramientas">Herramientas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://www.vajillascorona.com.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona.co" title="Vajillas" target="_blank" rel="noopener noreferrer">Vajillas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/molduras/c/molduras" title="Molduras">Molduras</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/guia-de-compras" title="Guías de compras">Guías de compras</a></li>
+        </ul>
+
+<div class="coc-mega-menu-desktop hidden-xs hidden-sm">
+                                    <div class="menu-item-list-wp menu-item-list-expanded">
+                                        <div class="megamenu-side megamenu-side-left">
+                                            <div class="megamenu-line"></div>
+                                        </div>
+                                        <div class="megamenu-side megamenu-side-right">
+                                            <div class="megamenu-line"></div>
+                                        </div>
+                                        <div class="menu-item-list">
+                                            <div class="megamenu-line"></div>
+                                            <ul class="coc-menu-item-desktop md-no-left-border lg-no-left-border ">
+                                                    <li>
+                                                                <a href="https://corona.co/lanzamientos" title="Lanzamientos">Lanzamientos</a></li>
+                                                        <li>
+                                                                <a href="/productos/revestimientos/pisos/c/pisos" title="Pisos">Pisos</a></li>
+                                                        <li>
+                                                                <a href="/productos/revestimientos/decorados/c/decorados" title="Decorados">Decorados</a></li>
+                                                        <li>
+                                                                <a href="/productos/revestimientos/paredes/c/paredes" title="Paredes">Paredes</a></li>
+                                                        <li>
+                                                                <a href="/productos/pisos-importados/c/pisos-importados" title="Pisos Importados">Pisos Importados</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop ">
+                                                    <li>
+                                                                <a href="/productos/pinturas/c/pinturas" title="Pinturas">Pinturas</a></li>
+                                                        <li>
+                                                                <a href="/productos/asientos-sanitarios/c/asientos-sanitarios" title="Asientos Sanitarios">Asientos Sanitarios</a></li>
+                                                        <li>
+                                                                <a href="/productos/sanitarios/c/sanitarios" title="Sanitarios">Sanitarios</a></li>
+                                                        <li>
+                                                                <a href="/productos/lavamanos/c/lavamanos" title="Lavamanos">Lavamanos</a></li>
+                                                        <li>
+                                                                <a href="/griferias" title="Griferías">Griferías</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop md-no-border ">
+                                                    <li>
+                                                                <a href="/productos/duchas/c/duchas" title="Duchas">Duchas</a></li>
+                                                        <li>
+                                                                <a href="/productos/tinas-e-hidromasajes/c/tinas-e-hidromasajes" title="Tinas e Hidromasajes">Tinas e Hidromasajes</a></li>
+                                                        <li>
+                                                                <a href="/productos/plomeria/c/plomeria" title="Plomería">Plomería</a></li>
+                                                        <li>
+                                                                <a href="/productos/muebles-para-cocinas/c/muebles-para-cocinas" title="Muebles para cocina">Muebles para cocina</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop md-no-left-border ">
+                                                    <li>
+                                                                <a href="/productos/muebles-para-banos/c/muebles-para-banos" title="Muebles para Baños">Muebles para Baños</a></li>
+                                                        <li>
+                                                                <a href="/materiales-de-construccion" title="Materiales de Construcción">Materiales de Construcción</a></li>
+                                                        <li>
+                                                                <a href="/institucional" title="Institucional">Institucional</a></li>
+                                                        <li>
+                                                                <a href="https://corona.co/productos/electrodomesticos/c/electrodomesticos" title="Electrodomésticos">Electrodomésticos</a></li>
+                                                        <li>
+                                                                <a href="https://corona.co/productos/gasodomesticos/c/gasodomesticos" title="Gasodomésticos">Gasodomésticos</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop lg-no-border ">
+                                                    <li>
+                                                                <a href="/accesorios-para-banos" title="Accesorios para Baño">Accesorios para Baño</a></li>
+                                                        <li>
+                                                                <a href="https://corona.co/productos/lavaplatos/c/lavaplatos" title="lavaplatos">lavaplatos</a></li>
+                                                        <li>
+                                                                <a href="/productos/herramientas/c/herramientas" title="Herramientas">Herramientas</a></li>
+                                                        <li>
+                                                                <a href="https://www.vajillascorona.com.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona.co" title="Vajillas" target="_blank" rel="noopener noreferrer">Vajillas</a></li>
+                                                        <li>
+                                                                <a href="/productos/molduras/c/molduras" title="Molduras">Molduras</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop lg-no-left-border md-no-border ">
+                                                    <li>
+                                                                <a href="https://corona.co/guia-de-compras" title="Guías de compras">Guías de compras</a></li>
+                                                        </ul>
+                                            </div>
+                                        <div class="coc-menu-banner">
+                                                <div class="megamenu-line"></div>
+                                                <div class="coc-menu-banner_image" style="background-image: url('/medias/corona-catalogo.jpg?context=bWFzdGVyfGltYWdlc3wyNzgwMXxpbWFnZS9qcGVnfGgxZS9oMDAvODg4OTExMzc3MjA2Mi9jb3JvbmFfY2F0YWxvZ28uanBnfDkyMjlkYjE1NGI1NjUzYzU2YzNiZTBjY2NlOTU3YmQyNWE5NGU3YzY2MGY0OWViNGE2YjlmOTNiMDg1YTIzYjk')"></div>
+                                                <p class="coc-menu-banner_description">Consulta los catálogos en PDF</p>
+                                                <a href="/catalogo" class="coc-menu-banner_cta">Ir a la sección</a>
+                                                </div>
+                                        </div>
+                                </div>
+                            </li>
+            <li class="first-level coc-mega-menu-item coc-menu-parent ">
+                    <div class="coc-single-menu-item">Ambientes</div>
+                        <span class="coc-menu-sub-action js-coc-menu-sub-action">
+                            <div class="sub-action-icon">
+                                <svg class="icon icon-chevron-right">
+                                     <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+                                 </svg>
+                             </div>
+                        </span>
+                        <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Ambientes</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-banos" title="Baños">Baños</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Baños</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-banos/bano-privado" title="Baño privado">Baño privado</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-banos/bano-social" title="Baño social">Baño social</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-banos/bano-seguro" title="Baño seguro">Baño seguro</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-interiores" title="Interiores">Interiores</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Ambientes Interiores</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-interiores/alcoba" title="Alcoba">Alcoba</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-interiores/sala" title="Sala">Sala</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-interiores/comedor" title="Comedor">Comedor</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-interiores/estudio" title="Estudio">Estudio</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-exteriores" title="Exteriores">Exteriores</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Exteriores</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-exteriores/balcon" title="Balcón">Balcón</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-exteriores/terraza" title="Terraza">Terraza</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-exteriores/piscina" title="Piscina">Piscina</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-exteriores/espacios-abiertos" title="Espacios abiertos">Espacios abiertos</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-cocinas" title="Cocinas">Cocinas</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                                <div class="sub-action-icon">
+						             <svg class="icon icon-chevron-right">
+						             	<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+						             </svg>
+                                </div>
+					        </span>
+                    <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Cocinas</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-cocinas/cocina-lineal" title="Cocina lineal">Cocina lineal</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-cocinas/cocina-lineal-con-isla" title="Cocina lineal con isla">Cocina lineal con isla</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/ambientes-cocinas/cuarto-de-lavado" title="Cuarto de lavado">Cuarto de lavado</a></li>
+        </ul>
+
+</li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/simuladores" title="Simuladores">Simuladores</a></li>
+        </ul>
+
+<div class="coc-mega-menu-desktop hidden-xs hidden-sm">
+                                    <div class="menu-item-list-wp menu-item-list-expanded">
+                                        <div class="megamenu-side megamenu-side-left">
+                                            <div class="megamenu-line"></div>
+                                        </div>
+                                        <div class="megamenu-side megamenu-side-right">
+                                            <div class="megamenu-line"></div>
+                                        </div>
+                                        <div class="menu-item-list">
+                                            <div class="megamenu-line"></div>
+                                            <ul class="coc-menu-item-desktop md-no-left-border lg-no-left-border ">
+                                                    <li class="node-title ">
+                                                                <a href="/ambientes-banos" title="Baños">Baños</a></li>
+                                                        <li>
+                                                            <a href="/ambientes-banos/bano-privado" title="Baño privado">Baño privado</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-banos/bano-social" title="Baño social">Baño social</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-banos/bano-seguro" title="Baño seguro">Baño seguro</a></li>
+                                                    <li class="view-all-node">
+                                                            <a href="/ambientes-banos">Ver todos</a>
+                                                        </li>
+                                                    </ul>
+                                            <ul class="coc-menu-item-desktop ">
+                                                    <li class="node-title ">
+                                                                <a href="/ambientes-interiores" title="Interiores">Interiores</a></li>
+                                                        <li>
+                                                            <a href="/ambientes-interiores/alcoba" title="Alcoba">Alcoba</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-interiores/sala" title="Sala">Sala</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-interiores/comedor" title="Comedor">Comedor</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-interiores/estudio" title="Estudio">Estudio</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-interiores/pasillo" title="Pasillo">Pasillo</a></li>
+                                                    <li class="view-all-node">
+                                                            <a href="/ambientes-interiores">Ver todos</a>
+                                                        </li>
+                                                    </ul>
+                                            <ul class="coc-menu-item-desktop md-no-border ">
+                                                    <li class="node-title ">
+                                                                <a href="/ambientes-exteriores" title="Exteriores">Exteriores</a></li>
+                                                        <li>
+                                                            <a href="/ambientes-exteriores/balcon" title="Balcón">Balcón</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-exteriores/terraza" title="Terraza">Terraza</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-exteriores/piscina" title="Piscina">Piscina</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-exteriores/espacios-abiertos" title="Espacios abiertos">Espacios abiertos</a></li>
+                                                    <li class="view-all-node">
+                                                            <a href="/ambientes-exteriores">Ver todos</a>
+                                                        </li>
+                                                    </ul>
+                                            <ul class="coc-menu-item-desktop md-no-left-border ">
+                                                    <li class="node-title ">
+                                                                <a href="/ambientes-cocinas" title="Cocinas">Cocinas</a></li>
+                                                        <li>
+                                                            <a href="/ambientes-cocinas/cocina-lineal" title="Cocina lineal">Cocina lineal</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-cocinas/cocina-lineal-con-isla" title="Cocina lineal con isla">Cocina lineal con isla</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-cocinas/cuarto-de-lavado" title="Cuarto de lavado">Cuarto de lavado</a></li>
+                                                    <li class="view-all-node">
+                                                            <a href="/ambientes-cocinas">Ver todos</a>
+                                                        </li>
+                                                    </ul>
+                                            <ul class="coc-menu-item-desktop lg-no-border ">
+                                                    <li class="node-title ">
+                                                                <a href="/ambientes-institucionales" title="Institucionales">Institucionales</a></li>
+                                                        <li>
+                                                            <a href="/ambientes-institucionales/banos" title="Baños">Baños</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-institucionales/oficinas" title="Oficinas">Oficinas</a></li>
+                                                    <li>
+                                                            <a href="/ambientes-institucionales/cafeterias" title="Cafeterías">Cafeterías</a></li>
+                                                    <li>
+                                                            </li>
+                                                    <li class="view-all-node">
+                                                            <a href="/ambientes-institucionales">Ver todos</a>
+                                                        </li>
+                                                    </ul>
+                                            <ul class="coc-menu-item-desktop lg-no-left-border md-no-border ">
+                                                    <li class="node-title ">
+                                                                <a href="https://corona.co/simuladores" title="Simuladores">Simuladores</a></li>
+                                                        </ul>
+                                            <ul class="coc-menu-item-desktop md-no-left-border ">
+                                                    <li class="node-title ">
+                                                                </li>
+                                                        </ul>
+                                            </div>
+                                        <div class="coc-menu-banner">
+                                                <div class="megamenu-line"></div>
+                                                <div class="coc-menu-banner_image" style="background-image: url('/medias/card-ambiente.jpg?context=bWFzdGVyfHJvb3R8MzI3Nzl8aW1hZ2UvanBlZ3xoMTUvaDkxLzkzMTE5ODQxODk0NzAvY2FyZC1hbWJpZW50ZS5qcGd8MzU1YTE1NmNkNzAzZTE1NWI5NWQ0N2EyMWU4MmYzNzlmY2ZiMzI3MzEyODQxZWQ0NWUxMzQyNGU2N2Y0YzBlNg')"></div>
+                                                <p class="coc-menu-banner_description">Visualiza tu espacio ideal</p>
+                                                <a href="https://corona.co/simuladores" class="coc-menu-banner_cta">Ir a simuladores</a>
+                                                </div>
+                                        </div>
+                                </div>
+                            </li>
+            <li class="first-level coc-mega-menu-item coc-menu-parent relative-node">
+                    <a href="/productos/servicios/c/servicios" title="Servicios">Servicios</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                            <div class="sub-action-icon">
+                                <svg class="icon icon-chevron-right">
+                                     <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+                                 </svg>
+                             </div>
+                        </span>
+                        <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Servicios</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/servicios/asesorias/c/servicio-asesorias" title="Asesorías">Asesorías</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                </li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/productos/servicios/instalaciones/c/servicio-instalaciones" title="Instalaciones">Instalaciones</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                </li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                </li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                </li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="https://corona.co/directorio-maestros" title="Directorio de maestros">Directorio de maestros</a></li>
+        </ul>
+
+<div class="menu-dropdown hidden-xs hidden-sm">
+                                        <ul>
+                                            <li>
+                                                            <a href="/productos/servicios/asesorias/c/servicio-asesorias" title="Asesorías">Asesorías</a></li>
+                                                    <li>
+                                                            </li>
+                                                    <li>
+                                                            <a href="/productos/servicios/instalaciones/c/servicio-instalaciones" title="Instalaciones">Instalaciones</a></li>
+                                                    <li>
+                                                            </li>
+                                                    <li>
+                                                            </li>
+                                                    <li>
+                                                            </li>
+                                                    <li>
+                                                            <a href="https://corona.co/directorio-maestros" title="Directorio de maestros">Directorio de maestros</a></li>
+                                                    </ul>
+                                    </div>
+                                </li>
+            <li class="first-level coc-mega-menu-item coc-menu-parent relative-node">
+                    <a href="/tecnologias" title="Tecnologías">Tecnologías</a><span class="coc-menu-sub-action js-coc-menu-sub-action">
+                            <div class="sub-action-icon">
+                                <svg class="icon icon-chevron-right">
+                                     <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-right"></use>
+                                 </svg>
+                             </div>
+                        </span>
+                        <ul class="coc-mega-menu-items coc-sub-menu hidden-md hidden-lg">
+    <li class="coc-mega-menu-item coc-mega-menu-back">
+		<span class="coc-menu-sub-action js-sub-menu-back">
+			<svg class="icon icon-chevron-left">
+				<use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-left"></use>
+			</svg>
+		</span>
+        <h2>Tecnologías</h2>
+    </li>
+
+    <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#pisos" title="Pisos">Pisos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#sanitarios" title="Sanitarios">Sanitarios</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#pinturas" title="Pinturas">Pinturas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#materiales" title="Materiales">Materiales</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#lavamanos" title="Lavamanos">Lavamanos</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#griferias" title="Griferías">Griferías</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#duchas" title="Duchas">Duchas</a></li>
+        <li class="coc-mega-menu-item coc-menu-parent">
+                <a href="/tecnologias#accesorios" title="Accesorios">Accesorios</a></li>
+        </ul>
+
+<div class="menu-dropdown hidden-xs hidden-sm">
+                                        <ul>
+                                            <li>
+                                                            <a href="/tecnologias#pisos" title="Pisos">Pisos</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#sanitarios" title="Sanitarios">Sanitarios</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#pinturas" title="Pinturas">Pinturas</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#materiales" title="Materiales">Materiales</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#lavamanos" title="Lavamanos">Lavamanos</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#griferias" title="Griferías">Griferías</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#duchas" title="Duchas">Duchas</a></li>
+                                                    <li>
+                                                            <a href="/tecnologias#accesorios" title="Accesorios">Accesorios</a></li>
+                                                    </ul>
+                                    </div>
+                                </li>
+            <li class="first-level coc-mega-menu-item coc-menu-parent ">
+                    <a href="https://inspirame.corona.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona.co" title="Inspírame" target="_blank" rel="noopener noreferrer">Inspírame</a></li>
+            <li class="first-level coc-mega-menu-item coc-menu-parent ">
+                    <a href="/productos/promociones/c/promociones" title="Ofertas">Ofertas</a></li>
+            </ul>
+<div class="hidden-md hidden-lg">
+    <div class="yCmsComponent hidden-md hidden-lg yComponentWrapper">
+<div class="hidden-xs hidden-sm coc-top-menu-links-wp">
+        <div class="coc-top-menu-links">
+            <a href="https://empresa.corona.co" title="Sitio Corporativo" target="_blank" rel="noopener noreferrer">Sitio Corporativo</a><a href="https://centrocorona.corona.co" title="Centros Corona" target="_blank" rel="noopener noreferrer">Centros Corona</a><a href="/grival" title="Grival">Grival</a><a href="https://clubmaestros.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona" title="Club Maestros" target="_blank" rel="noopener noreferrer">Club Maestros</a><a href="/store-finder" title="Mapa de tiendas">Mapa de tiendas</a></div>
+    </div>
+</div><div class="yCmsComponent hidden-md hidden-lg yComponentWrapper">
+<div class="coc-country-selector">
+        <div class="coc-selected-country js-country-selector-trigger">
+            <div class="coc-country-selected-option">
+                        <span>
+                            <img src="/medias/colombia-flag.svg?context=bWFzdGVyfGltYWdlc3w3MDJ8aW1hZ2Uvc3ZnK3htbHxoNWQvaGE1Lzg3OTYxNjY1MjA4NjIvY29sb21iaWEtZmxhZy5zdmd8YjBmYzk2MjQ0ZWUzMmIxMmJlMDI1ZGRmZDc4Y2Y0N2ZiZTRkMzNmMzM4ZmQ0MDIwYTc2M2NiYzEwMWZiNmUzYQ" alt="Colombia">
+                        </span>
+                    <span class="coc-country-name">
+                            <a href="https://corona.co" title="Colombia">Colombia</a></span>
+                </div>
+            <span class="country-select-arrow">
+                <svg class="icon icon-chevron-down-sm">
+                    <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-down-sm"></use>
+                </svg>
+            </span>
+        </div>
+        <div class="coc-country-selector-options">
+            <div class="coc-country-option">
+                        <span>
+                            <img src="/medias/mexico-flag.svg?context=bWFzdGVyfGltYWdlc3w1ODkzfGltYWdlL3N2Zyt4bWx8aDBjL2hhNi84Nzk2MTY2NTg2Mzk4L21leGljby1mbGFnLnN2Z3w0OGZhYjVlMTI5YTBlNDRkMTJiOWM4NjNhOGU3M2E4NTFjNzMxYTlkNDc0ZTk0ZTE4YWRhZjZhNzJmNWI5M2Ji" alt="México">
+                        </span>
+                        <span class="coc-country-name">
+                            <a href="https://www.coronamexico.com" title="México">México</a></span>
+                    </div>
+                </div>
+    </div>
+</div></div>
+</div>
+
+                    <div class="menu-item-search-component">
+                            <div class="yCmsComponent coc-search-box yComponentWrapper">
+<form name="search_form_SearchBox" method="get" action="/search/">
+    <div class="input-group">
+        <div class="coc-search-input-wp">
+            <div class="input-search-icon input-search-icon-common">
+                <svg class="icon icon-search">
+                    <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-search"></use>
+                </svg>
+            </div>
+            <div class="input-close-icon input-search-icon-common js-search-close">
+                <svg class="icon icon-close">
+                    <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-close"></use>
+                </svg>
+            </div>
+            <input type="text" id="js-site-search-input" class="form-control js-site-search-input coc-search-input ui-autocomplete-input" name="text" value="" maxlength="100" placeholder="Estoy buscando" data-options="{
+                    &quot;autocompleteUrl&quot; : &quot;/search/autocomplete/SearchBox&quot;,
+                    &quot;minCharactersBeforeRequest&quot; : &quot;3&quot;,
+                    &quot;waitTimeBeforeRequest&quot; : &quot;500&quot;,
+                    &quot;displayProductImages&quot; : &quot;true&quot;
+                    }" autocomplete="off">
+            <ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul></div>
+    </div>
+</form>
+<div class="hidden coc-autosuggest-title">Sugerencias</div>
+<div class="hidden coc-autosuggest-ref">REF</div>
+</div></div>
+                    <div class="coc-nav-icons">
+                        <div class="header-icon coc-icon-search">
+                                <svg class="icon js-coc-icon-search icon-search hidden-lg">
+                                    <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-search"></use>
+                                </svg>
+                            </div>
+                            <div class="header-icon zone-price__component js-zone-price__component">
+                                <div class="yCmsComponent">
+<div class="zone-price__component--pre-text js-zone-price__component--pre-text">
+    <span class="zone-price__component--label js-zone-price__component--label hidden-xs hidden-sm">
+        BOGOTA</span>
+    <span class="zone-price__component--gps">
+        <svg class="icon icon-gps">
+            <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-gps"></use>
+         </svg>
+    </span>
+</div>
+<div class="zone-price__component--dropdown js-zone-price__component--dropdown is-visible">
+    <button class="zone-price__component-close js-zone-price__component-close">
+        <svg class="icon icon-close">
+            <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <div class="zone-price__component--post-text">
+        <span>
+            <svg class="icon icon-gps">
+                <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-gps"></use>
+             </svg>
+        </span>
+        <span class="zone-price__component--label-large js-zone-price__component--label-large">
+            BOGOTA, Bogotá</span>
+    </div>
+    <div>
+        <p class="zone-price__component--copy">
+            Estás viendo productos disponibles para comprar en esta ciudad. Si no es donde te encuentras, te recomendamos cambiarla.</p>
+    </div>
+    <div class="zone-price__component--change-location">
+        <button class="zone-price__component--expand js-zone-price__component--expand">
+            <span class="zone-price__component--change-copy">
+                Cambiar mi ubicación</span>
+            <svg class="icon icon-chevron-down">
+                <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-down"></use>
+            </svg>
+            <svg class="icon icon-chevron-up">
+                <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-chevron-up"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="zone-price__component--location js-zone-price__component--location">
+    <form id="CoronaZoneForm" action="/location/zone" method="post"><div>
+            <div class="form-group">
+				<label class="control-label " data-blank-message="Departamento" for="zone.regions">
+            Departamento<span class="mandatory">
+                    *</span>
+            <span class="skip">
+                </span>
+        </label>
+        <div class="control">
+            <select id="zone.regions" name="regionIso" class="form-control"><option value="" disabled="disabled" selected="selected">
+                        Departamento</option>
+                <option value="CO-AMA">Amazonas</option><option value="CO-ANT">Antioquia</option><option value="CO-ARA">Arauca</option><option value="CO-ATL">Atlántico</option><option value="CO-DC">Bogotá</option><option value="CO-BOL">Bolívar</option><option value="CO-BOY">Boyacá</option><option value="CO-CAL">Caldas</option><option value="CO-CAQ">Caquetá</option><option value="CO-CAS">Casanare</option><option value="CO-CAU">Cauca</option><option value="CO-CES">Cesar</option><option value="CO-CHO">Chocó</option><option value="CO-CUN">Cundinamarca</option><option value="CO-COR">Córdoba</option><option value="CO-GUA">Guainía</option><option value="CO-GUV">Guaviare</option><option value="CO-HUI">Huila</option><option value="CO-LAG">La Guajira</option><option value="CO-MAG">Magdalena</option><option value="CO-MET">Meta</option><option value="CO-NAR">Nariño</option><option value="CO-NSA">Norte de Santander</option><option value="CO-PUT">Putumayo</option><option value="CO-QUI">Quindío</option><option value="CO-RIS">Risaralda</option><option value="CO-SAP">San Andrés y Providencia</option><option value="CO-SAN">Santander</option><option value="CO-SUC">Sucre</option><option value="CO-TOL">Tolima</option><option value="CO-VAC">Valle del Cauca</option><option value="CO-VAU">Vaupés</option><option value="CO-VID">Vichada</option></select></div>
+    </div>
+		</div>
+        <div>
+            <div class="form-group">
+				<label class="control-label bm-address-towns" data-blank-message="Ciudad" for="zone.towns">
+            Ciudad<span class="mandatory">
+                    *</span>
+            <span class="skip">
+                </span>
+        </label>
+        <div class="control">
+            <select id="zone.towns" name="townCity" class="form-control"><option value="" disabled="disabled" selected="selected">
+                        Ciudad</option>
+                </select></div>
+    </div>
+		</div>
+        <input id="regionIsoCode" name="regionIsoCode" type="hidden">
+        <input id="zoneRegion" name="zoneRegion" type="hidden">
+        <input id="zoneTown" name="zoneTown" type="hidden">
+        <input id="zonePath" name="zonePath" type="hidden">
+        <input id="townCode" name="townCode" type="hidden">
+        <button class="btn btn-primary btn-block js-zone-price__component--change" type="submit" disabled="">
+            Cambiar</button>
+    <div>
+<input type="hidden" name="CSRFToken" value="2f2f8179-872a-4da7-bdb5-c6a93788a4e4">
+</div></form></div></div></div></div>
+                        <div class="header-icon account-icon-desktop hidden-xs hidden-sm">
+                                        <a href="/login">
+                                                <div class="account-pre-text">
+                                        <span class="coc-account-highlighted">
+                                             Ingresa</span>
+                                                    <span>
+                                                Regístrate</span>
+                                                </div>
+                                                <span>
+                                        <svg class="icon icon-account">
+                                            <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-account"></use>
+                                        </svg>
+                                    </span>
+                                            </a>
+                                        </div>
+                                <div class="header-icon cart-icon-wp">
+                                    <div class="yCmsContentSlot">
+<div class="yCmsComponent mobile__nav__row--table-cell">
+<a href="/cart" class="mini-cart-link js-mini-cart-link" data-mini-cart-url="/cart/rollover/MiniCart" data-mini-cart-refresh-url="/cart/miniCart/SUBTOTAL" data-mini-cart-name="Carrito de compras" data-mini-cart-empty-name="Aún no tienes productos en tu carrito." data-mini-cart-items-text="Artículos">
+    <svg class="icon icon-cart"><use xlink:href="/_ui/responsive/common/images/icons.svg#icon-cart"></use></svg>
+    <div class="mini-cart-count single-digit js-mini-cart-count"><span class="nav-items-total">0</span></div>
+    </a>
+<div class="coc-mini-cart-overlay"></div>
+<div class="mini-cart-container js-mini-cart-container">
+    <div class="mini-cart-header">
+        <div class="mini-cart-header-inner">
+            Carrito<a class="js-close-mini-cart coc-close-mini-cart" href="javascript:void(0)"><svg class="icon icon-close"><use xlink:href="/_ui/responsive/common/images/icons.svg#icon-close"></use></svg></a>
+        </div>
+    </div>
+    <div class="js-mini-cart-content"></div>
+</div>
+</div></div></div>
+                            <div class="hidden-md hidden-lg header-icon coc-icon-hamburger">
+						<span class="js-hamburger-menu">
+							<button class="hamburger hamburger--spring" type="button">
+                                <span class="hamburger-box">
+                                     <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+						</span>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </div>
+</header>
+
+<main class="main-content" data-currency-iso-code="COP">
+
+            <div class="yCmsContentSlot promotional-message-wp">
+<div>
+    <div class="container-message-back-landing">
+            <div class="header-message-back-landing">
+                    <div class="title-message-back-landing">Sigue explorando lo nuevo</div>
+                    <div class="close-button">
+                        <svg class="icon icon-desktop icon-x-circle">
+                            <image href="/_ui/responsive/common/images/x-circle.svg"></image>
+                        </svg>
+                        <svg class="icon icon-mobile icon-arrow-left">
+                            <image href="/_ui/responsive/common/images/x-circle-mobile.svg"></image>
+                        </svg>
+                    </div>
+                </div>
+            <div class="body-message-back-landing">
+                        Accede a otras categorías de nuestro portafolio de productos y empieza a remodelar</div>
+            <a class="button-message-back-landing" href="/lanzamientos">
+                    <svg class="icon icon-arrow-left">
+                        <image href="/_ui/responsive/common/images/arrow-left.svg"></image>
+                    </svg>
+                    <div class="name-button">Volver a nueva colección</div>
+                </a>
+            </div>
+    </div>
+
+</div><div class="global-alerts">
+
+            <div class="alert alert-danger error-msg alert-dismissable getAccAlert" data-gtm-vis-recent-on-screen-13460820_215="316" data-gtm-vis-first-on-screen-13460820_215="316" data-gtm-vis-total-visible-time-13460820_215="100" data-gtm-vis-has-fired-13460820_215="1">
+                    <div class="container alert-wp">
+                        <div class="alert-icon" data-gtm-vis-recent-on-screen-13460820_15="312" data-gtm-vis-first-on-screen-13460820_15="312" data-gtm-vis-total-visible-time-13460820_15="100" data-gtm-vis-has-fired-13460820_15="1">
+                            <svg class="icon icon-error">
+                                <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-error"></use>
+                            </svg>
+                        </div>
+                        <button class="close closeAccAlert" aria-hidden="true" data-dismiss="alert" type="button">
+                            <svg class="icon icon-close">
+                                <use xlink:href="/_ui/responsive/common/images/icons.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        Por favor corrige los siguientes errores.</div>
+                </div>
+            </div>
+<div class="main__inner-wrapper container">
+                <div class="yCmsContentSlot">
+</div><div class="row">
+		<div class="col-md-6">
+			<div class="yCmsContentSlot login-left-content-slot">
+<div class="yCmsComponent login-left-content-component">
+<div class="register__section">
+	<div class="user-register__headline">
+    Crear una cuenta</div>
+<p>
+    Regístrate a continuación y disfruta las ventajas de tener una cuenta: Pago rápido, fácil acceso a pedidos anteriores, crear una libreta de direcciones, entre otras configuraciones.</p>
+<form id="registerForm" class="js-validate-pwd-strength" action="/login/register" method="post"><div class="form-group">
+				<label class="control-label " for="register.firstName">
+                Nombre<span class="mandatory">
+	   				*</span>
+                </label>
+        <input id="register.firstName" name="firstName" class="form-control form-control" type="text" value="lau"></div>
+		<div class="form-group">
+				<label class="control-label " for="register.lastName">
+                Apellido<span class="mandatory">
+	   				*</span>
+                </label>
+        <input id="register.lastName" name="lastName" class="form-control form-control" type="text" value="rodriguez"></div>
+		<div class="form-group has-error">
+				<label class="control-label " for="register.email">
+                Correo electrónico<span class="mandatory">
+	   				*</span>
+                </label>
+        <input id="register.email" name="email" class="form-control form-control" type="text" value="dd"><div class="help-block">
+					<span id="email.errors">El usuario o contraseña son incorrectos.</span></div>
+			</div>
+		<div class="form-group">
+				<label class="control-label " for="password">
+			Contraseña</label>
+		<input id="password" name="pwd" class="form-control password-strength" type="password" value="" autocomplete="off"><div class="help-block" id="password_minchar">La longitud mínima es 7 caracteres</div><div id="password_bar" class="progress" style="display: none;"><div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"><span id="password_text">0%</span></div></div></div>
+		<div class="form-group">
+				<label class="control-label " for="register.checkPwd">
+			Confirmar contraseña</label>
+		<input id="register.checkPwd" name="checkPwd" class="form-control" type="password" value="" autocomplete="off"></div>
+		<input id="consentForm.consentTemplateId" name="consentForm.consentTemplateId" value="DATA_TREATMENT" type="hidden"><input id="consentForm.consentTemplateVersion" name="consentForm.consentTemplateVersion" value="0" type="hidden"><div class="checkbox">
+            <label class="control-label uncased">
+                <input id="registerChkDataTreatment" name="consentForm.consentGiven" type="checkbox" value="true" checked="checked"><input type="hidden" name="_consentForm.consentGiven" value="on"><div class="control__indicator"></div>
+                    Autorizo el tratamiento de mis datos de acuerdo a los siguientes <a href="/tratamiento-datos" rel="nofollow">términos</a></label>
+        </div>
+    <div class="form-group">
+				<div class="checkbox">
+            <label class="control-label uncased">
+                <input id="registerChkTermsConditions" name="termsCheck" data-required-terms-conditions="true" type="checkbox" value="true"><div class="control__indicator"></div>
+                    Acepto<a href="/terminos-condiciones" rel="nofollow"> términos y condiciones </a>y las políticas de uso</label>
+        </div>
+    </div>
+		<input type="hidden" id="recaptchaChallangeAnswered" value="">
+    <div class="form_field-elements control-group js-recaptcha-captchaaddon"><div id="g-recaptcha_incorrect">Respuesta no válida para desafío de captcha</div>
+	<div id="g-recaptcha_widget" class="g-recaptcha" data-sitekey="6LcUo7QUAAAAAOTuIiCdshsEQfdQt1edgT-09Ijs"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcUo7QUAAAAAOTuIiCdshsEQfdQt1edgT-09Ijs&amp;co=aHR0cHM6Ly9jb3JvbmEuY286NDQz&amp;hl=es&amp;v=5qcenVbrhOy8zihcc2aHOWD4&amp;size=normal&amp;cb=6cj2nc17z9f1" width="304" height="78" role="presentation" name="a-ijl8hdpf95le" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></div>
+    <div class="form-actions clearfix">
+        <button type="submit" class="btn btn-default btn-block" disabled="disabled">
+                Registrar</button>
+        </div>
+
+    <div style="display:none">
+        <div id="captchaDialog" title="CAPTCHA Invalido">
+            <p>Completa la prueba del CAPTCHA para finalizar el registro.</p>
+        </div>
+    </div>
+<div>
+<input type="hidden" name="CSRFToken" value="2f2f8179-872a-4da7-bdb5-c6a93788a4e4">
+</div></form></div>
+</div></div></div>
+		<div class="col-md-6">
+			<div class="yCmsContentSlot login-right-content-slot">
+<div class="yCmsComponent login-right-content-component">
+<div class="login-section">
+	<div class="login-page__headline">
+	Soy cliente registrado</div>
+
+<p>
+		¿Ya tienes una cuenta? Ingresa tus datos para iniciar sesión.</p>
+<form id="loginForm" class="js-validate-mail" action="/j_spring_security_check" method="post"><div class="form-group">
+				<label class="control-label " for="j_username">
+                Correo electrónico<span class="mandatory">
+	   				*</span>
+                </label>
+        <input id="j_username" name="j_username" class="form-control js-login-email form-control" type="text" value=""></div>
+		<div class="form-group">
+				<label class="control-label " for="j_password">
+			Contraseña</label>
+		<input id="j_password" name="j_password" class="form-control" type="password" value="" autocomplete="off"></div>
+		<div class="forgotten-password">
+		<a href="#" data-link="/login/pw/request" class="js-password-forgotten" data-cbox-title="Restablecer contraseña">
+				¿Olvidaste tu contraseña?</a>
+		</div>
+	<button type="submit" class="btn btn-primary btn-block">
+			Iniciar sesión</button>
+	<div>
+<input type="hidden" name="CSRFToken" value="2f2f8179-872a-4da7-bdb5-c6a93788a4e4">
+</div></form></div>
+</div></div></div>
+	</div>
+</div>
+        </main>
+        <footer>
+    <div class="coc-footer__top">
+        <div class="yCmsComponent coc-pre-footer">
+<div class="coc-footer-container container">
+    <div class="coc-card-container">
+        <a href="/preguntas-frecuentes#domicilios-costos-envio" class="coc-card__wp  coc-cards-xs-2 coc-cards-sm-3 coc-cards-md-4 coc-cards-lg-4 border-bottom-xs border-bottom-sm border-right-xs border-right-sm border-right-md border-right-lg">
+                <div class="coc-card__image">
+                    <img src="/medias/envios.svg?context=bWFzdGVyfGltYWdlc3wxNTI2fGltYWdlL3N2Zyt4bWx8aDQzL2hmNS84Nzk2MTg4MTE0OTc0L2Vudmlvcy5zdmd8NjhmZmNjOTc4MDE5NzMzMDU2MDcxYThhMTcxMTFhMjk3MDZlZTg0YzQ0YWJlZTVhMzk3MDhjMmUxYzI3ZWZmMA" alt="">
+                </div>
+                <div class="coc-card__title">
+                    <h4>Envío a domicilio</h4>
+                </div>
+                <div class="coc-card__description">
+                    <p>Escoge la modalidad<br>que más se adapte a<br>tu necesidad y recibe<br>tu compra donde estés.</p>
+                        </div>
+            </a>
+            <a href="/preguntas-frecuentes#puntos-venta-para-recogida-productos" class="coc-card__wp  coc-cards-xs-2 coc-cards-sm-3 coc-cards-md-4 coc-cards-lg-4 border-bottom-xs border-bottom-sm border-right-sm border-right-md border-right-lg">
+                <div class="coc-card__image">
+                    <img src="/medias/tiendas.svg?context=bWFzdGVyfGltYWdlc3wxMzE5fGltYWdlL3N2Zyt4bWx8aGVjL2hmNC84Nzk2MTg4MTQ3NzQyL3RpZW5kYXMuc3ZnfDM3ZTk0YTI0N2Q2NjY0ZmVmMjkxZTNiMjM5YzEzNTRjZTc4MzBiNjVjMTI4MmI0MzEzZjE3NjdjMjU2YTY2YzE" alt="">
+                </div>
+                <div class="coc-card__title">
+                    <h4>Recogida en tienda</h4>
+                </div>
+                <div class="coc-card__description">
+                    <p>Compra en línea y<br>recoge tus productos<br>en alguno de los<br>Centros Corona.</p>
+                        </div>
+            </a>
+            <a href="https://corona.co/credicorona" class="coc-card__wp  coc-cards-xs-2 coc-cards-sm-3 coc-cards-md-4 coc-cards-lg-4 border-bottom-sm border-right-xs border-right-md border-right-lg">
+                <div class="coc-card__image">
+                    <img src="/medias/credicorona.svg?context=bWFzdGVyfGltYWdlc3wyNzg4fGltYWdlL3N2Zyt4bWx8aDIzL2gwOS84OTAwOTUzMzQxOTgyL2NyZWRpY29yb25hLnN2Z3xkNTc0MzNiZTY1ZGM1MzcxMTE5MmQ1MzY3NTYzMzcyNjEyMDY2NTcyYjAwODM4Njc5MjlkOWExMGJmOTk0YjY4" alt="">
+                </div>
+                <div class="coc-card__title">
+                    <h4>CrediCorona®</h4>
+                </div>
+                <div class="coc-card__description">
+                    <p>Financia tu compra y disfruta de cómodos plazos de pago.</p>
+                        </div>
+            </a>
+            <a href="/preguntas-frecuentes#metodos-pago" class="coc-card__wp  coc-cards-xs-2 coc-cards-sm-3 coc-cards-md-4 coc-cards-lg-4 border-right-sm">
+                <div class="coc-card__image">
+                    <img src="/medias/medios.svg?context=bWFzdGVyfGltYWdlc3wxMjY3fGltYWdlL3N2Zyt4bWx8aDgyL2hmNC84Nzk2MTg4MTgwNTEwL21lZGlvcy5zdmd8MDJkNjc0ZmJkMDk0Njg2YjFmZDQ5OTAwM2QxMmVmYzYwNmFhZTgyNTRhNGFhMmU2ZDFiODkwMDNmZjc2YTM3ZQ" alt="">
+                </div>
+                <div class="coc-card__title">
+                    <h4>Métodos de pago</h4>
+                </div>
+                <div class="coc-card__description">
+                    <p>Paga con tarjetas<br>crédito, débito y PSE.</p>
+                        </div>
+            </a>
+            </div>
+</div>
+</div><div class="coc-footer-container container">
+            <div class="coc-footer-nav ">
+                <div class="coc-nav-item coc-item__menu ">
+                            <div class="coc-item-head">
+                                <a href="#coc-menu-0" role="button" data-toggle="collapse" aria-expanded="false" class="collapsed " aria-controls="coc-menu-0">Habla con nosotros</a>
+                            </div>
+                            <div id="coc-menu-0" class="coc-item-body collapse">
+                                <ul>
+                                    <li>Línea de Atención Nacional 018000 512 030 En Bogotá 404 88 84</li>
+                                                <li>Correo Atención al Cliente contactenoscorona@corona.com.co</li>
+                                                <li>Línea Ética y Anticorrupción lineaeticayanticorrupcion@corona.com.co</li>
+                                                <li class="yCmsComponent footer__link">
+<a href="/contacto" title="Contáctenos">Contáctenos</a></li><li class="yCmsComponent footer__link">
+<a href="/preguntas-frecuentes" title="Preguntas Frecuentes">Preguntas Frecuentes</a></li></ul>
+                            </div>
+                        </div>
+                    <div class="coc-nav-item coc-item__menu ">
+                            <div class="coc-item-head">
+                                <a href="#coc-menu-1" role="button" data-toggle="collapse" aria-expanded="false" class="collapsed " aria-controls="coc-menu-1">Legales</a>
+                            </div>
+                            <div id="coc-menu-1" class="coc-item-body collapse">
+                                <ul>
+                                    <li class="yCmsComponent footer__link">
+<a href="/terminos-condiciones" title="Términos y Condiciones">Términos y Condiciones</a></li><li class="yCmsComponent footer__link">
+<a href="https://bit.ly/3J7fpbA" title="Política de Tratamiento de Datos" target="_blank" rel="noopener noreferrer">Política de Tratamiento de Datos</a></li><li class="yCmsComponent footer__link">
+<a href="/terminos-condiciones#derecho-retracto" title="Derecho de Retracto">Derecho de Retracto</a></li><li class="yCmsComponent footer__link">
+<a href="https://sic.gov.co" title="Superintendencia de Industria y Comercio" target="_blank" rel="noopener noreferrer">Superintendencia de Industria y Comercio</a></li></ul>
+                            </div>
+                        </div>
+                    <div class="coc-nav-item coc-item__menu ">
+                            <div class="coc-item-head">
+                                <a href="#coc-menu-2" role="button" data-toggle="collapse" aria-expanded="false" class="collapsed " aria-controls="coc-menu-2">Proceso de compra</a>
+                            </div>
+                            <div id="coc-menu-2" class="coc-item-body collapse">
+                                <ul>
+                                    <li class="yCmsComponent footer__link">
+<a href="/terminos-condiciones#devoluciones-cambios" title="Devoluciones y cambios">Devoluciones y cambios</a></li><li class="yCmsComponent footer__link">
+<a href="/terminos-condiciones#envio-entrega" title="Costos de envío">Costos de envío</a></li><li class="yCmsComponent footer__link">
+<a href="/terminos-condiciones#medios-condiciones-pago" title="Métodos de pago">Métodos de pago</a></li><li class="yCmsComponent footer__link">
+<a href="/store-finder" title="Mapa de tiendas">Mapa de tiendas</a></li><li class="yCmsComponent footer__link">
+<a href="/garantias" title="Garantías">Garantías</a></li><li class="yCmsComponent footer__link">
+<a href="https://corona.co/protocolo-entrega-covid-19" title="Protocolo Covid-19">Protocolo Covid-19</a></li><li class="yCmsComponent footer__link">
+<a href="/tiendas-y-horarios"></a></li></ul>
+                            </div>
+                        </div>
+                    <div class="coc-nav-item coc-item__menu ">
+                            <div class="coc-item-head">
+                                <a href="#coc-menu-3" role="button" data-toggle="collapse" aria-expanded="false" class="collapsed " aria-controls="coc-menu-3">Otros sitios</a>
+                            </div>
+                            <div id="coc-menu-3" class="coc-item-body collapse">
+                                <ul>
+                                    <li class="yCmsComponent footer__link">
+<a href="https://empresa.corona.co" title="Sitio Corporativo" target="_blank" rel="noopener noreferrer">Sitio Corporativo</a></li><li class="yCmsComponent footer__link">
+<a href="https://centrocorona.corona.co" title="Centros Corona" target="_blank" rel="noopener noreferrer">Centros Corona</a></li><li class="yCmsComponent footer__link">
+<a href="https://clubmaestros.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona" title="Club Maestros" target="_blank" rel="noopener noreferrer">Club Maestros</a></li><li class="yCmsComponent footer__link">
+<a href="https://inspirame.corona.co/?utm_source=corona.co&amp;utm_medium=referral&amp;utm_campaign=corona.co" title="Inspírame" target="_blank" rel="noopener noreferrer">Inspírame</a></li></ul>
+                            </div>
+                        </div>
+                    <div class="coc-nav-item coc-item__social ">
+                    <ul class="coc-social-wp">
+        <li class="coc-social">
+                    <a href="https://www.youtube.com/user/OrganizacionCorona" target="_blank">
+                        <img src="/medias/youtube.svg?context=bWFzdGVyfGltYWdlc3w1NzZ8aW1hZ2Uvc3ZnK3htbHxoZGIvaGYxLzg3OTYxODgyMTMyNzgveW91dHViZS5zdmd8NGQ5MDI0ZjhkN2I2MWVkMDNmOWUyNGZjZDlkMTgyNjkyYjI1YjI4ZmNhNmI4NWJkMmMyY2VkZjQwODgyMDMwNQ" alt="">
+                    </a>
+                </li>
+            <li class="coc-social">
+                    <a href="https://www.facebook.com/coronamejoratuvida" target="_blank">
+                        <img src="/medias/facebook.svg?context=bWFzdGVyfGltYWdlc3wzMDR8aW1hZ2Uvc3ZnK3htbHxoODQvaGYxLzg3OTYxODgyNDYwNDYvZmFjZWJvb2suc3ZnfDIzNWFjZTk0MDNmOWVhODQ3NjhkMGYyY2YzZDAxODY0ZGMxNmRmYjJhMWVhYWY1ODM0N2VhZWYxNGI1OWI1MmE" alt="">
+                    </a>
+                </li>
+            <li class="coc-social">
+                    <a href="https://www.instagram.com/corona_inspira/" target="_blank">
+                        <img src="/medias/instagram.svg?context=bWFzdGVyfGltYWdlc3wxNzU0fGltYWdlL3N2Zyt4bWx8aDJkL2hmMS84Nzk2MTg4Mjc4ODE0L2luc3RhZ3JhbS5zdmd8OWU4MzViNTA3OGNlMjZhNzQwZDE2MGUxOTYwNzY1YTU3ZDdhNzczMGQ4N2NiOGUyYTIwZGJiYjE5MjkzNTVjZQ" alt="">
+                    </a>
+                </li>
+            <li class="coc-social">
+                    <a href="http://es.pinterest.com/coronainspira" target="_blank">
+                        <img src="/medias/pinteres.svg?context=bWFzdGVyfGltYWdlc3w3ODN8aW1hZ2Uvc3ZnK3htbHxoNzMvaGVlLzg3OTYxODgzMTE1ODIvcGludGVyZXMuc3ZnfDliZDA5ZDg2MTBlZjMyZjM2ZmRiYmQzMjdhZTM2NWEwNjAxYTI2NDI5NjFjYjk5MzJmMDdjYWViZTU2ZGUwODM" alt="">
+                    </a>
+                </li>
+            </ul>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <style>
+.external-content {
+  height: 0;
+  width: 360px;
+  position:relative;
+  float:right;
+}
+</style>
+
+<div class="external-content">
+    </div>
+
+<div class="footer__copyright">
+            <div class="container">©2019 Corona - Todos los derechos reservados.</div>
+        </div>
+    </div>
+</footer>
+
+<div id="loading_container_wp">
+    <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-text">procesando</div>
+    </div>
+</div>
+<form name="accessiblityForm">
+		<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField" value="">
+	</form>
+
+	<script>
+    /*<![CDATA[*/
+    
+    var ACC = {config: {}};
+    ACC.config.contextPath = '';
+    ACC.config.encodedContextPath = '';
+    ACC.config.commonResourcePath = '\/_ui\/responsive\/common';
+    ACC.config.themeResourcePath = '\/_ui\/responsive\/theme-corona';
+    ACC.config.siteResourcePath = '\/_ui\/responsive\/site-corona-co';
+    ACC.config.rootPath = '\/_ui\/responsive';
+    ACC.config.CSRFToken = '2f2f8179-872a-4da7-bdb5-c6a93788a4e4';
+    ACC.pwdStrengthVeryWeak = 'Muy Débil';
+    ACC.pwdStrengthWeak = 'Débil';
+    ACC.pwdStrengthMedium = 'Medio';
+    ACC.pwdStrengthStrong = 'Fuerte';
+    ACC.pwdStrengthVeryStrong = 'Muy fuerte';
+    ACC.pwdStrengthUnsafePwd = 'password.strength.unsafepwd';
+    ACC.pwdStrengthTooShortPwd = 'Demasiado corta';
+    ACC.pwdStrengthMinCharText = 'La longitud mínima es %d caracteres';
+    ACC.accessibilityLoading = 'Cargando ... Espera ...';
+    ACC.accessibilityStoresLoaded = 'Tiendas cargadas';
+    ACC.config.googleApiKey = 'AIzaSyCdUmCINBL-0L7dMiGgIVWZCaxOuJBur1E';
+    ACC.config.googleApiVersion = '3.7';
+
+    
+    ACC.autocompleteUrl = '\/search\/autocompleteSecure';
+
+    
+    ACC.config.loginUrl = '\/login';
+
+    
+    ACC.config.authenticationStatusUrl = '\/authentication\/status';
+
+    
+
+
+    var COC = {config: {}};
+    COC.config.pwdStrengthMinSecAcceptanceValue = '60';
+    COC.pwdStrengthMinText = 'Crea una contraseña más segura. Usa 7 o más caracteres combinando letras, números y símbolos.';
+
+    COC.calculatorMessage = 'Necesitas {0} {1} para cubrir {2} {3}.';
+    COC.calculatorPoorQuantity = 'Te recomendamos mirar otras presentaciones de este producto. La cantidad requerida es menos de {0} {1}.';
+    COC.calculatorNotEnoughStock = '¡Lo sentimos! Solo disponemos de {0} {1} y la cantidad calculada es de {2}.';
+    COC.calculatorProductNotAvailable = 'Escribe en el chat para ayudarte con tu compra';
+    COC.calculatorProductAvailableOnlyPickup = 'En el momento este producto solo está disponible para recogida en tienda.';
+    COC.calculatorStockGlobalNotComplete = 'En este momento disponemos de {0} cajas para domicilio, consulta con el asesor vía chat opciones para completar tu orden.';
+    COC.calculatorPickupStockComplete = 'En este momento disponemos de {0} cajas para domicilio, complete su orden seleccionando recogida en tienda.';
+
+    COC.registerEmailInvalid = 'El usuario o contraseña son incorrectos.';
+    COC.config.emailRegex = '\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]+\\b';
+    COC.titleDataTreatment = 'Política de tratamiento de datos.';
+    COC.config.currentSite = 'corona-co';
+    COC.config.siteCoronaCO = 'corona-co';
+    COC.config.siteVajillasCO = 'vajillas-co';
+    COC.config.iconsPath = '\/_ui\/responsive\/common\/images\/icons.svg';
+
+    COC.invalidPaymentCreditCardNumber = 'Verifica que el número de tu tarjeta sea válido';
+    COC.notSupportedCardType = 'Tarjeta de crédito no soportada';
+    COC.invalidPaymentExpirationDate = 'Verifica que la fecha de expiración sea válida';
+    COC.invalidPaymentPayerId = 'Verifica que el documento de identificación sea válido';
+    COC.invalidPaymentCVV = 'Verifica que el código de seguridad sea válido';
+    COC.invalidPaymentPhone = 'Debes usar entre 7 y 15 dígitos';
+    COC.emptyPaymentField = 'Este campo es requerido';
+    COC.invalidPaymentPayerNameNoNumbers = 'Ingresa sólo texto, sin números ni caracteres especiales';
+    COC.invalidPaymentPayerName = 'Debe ingresar un máximo de 150 caracteres.';
+    COC.emptyPaymentDateField = 'Fecha de expiración requerida';
+    COC.defaultSelectionTxt = '-Selecciona-';
+    COC.urlFandeckIframe = 'https://www.lancopaints.com';
+
+    COC.redirectSourceDomain = 'corona.co';
+    COC.redirectTargetDomain = 'coronamexico.com';
+    COC.restrictedCountryCode = 'MX';
+    COC.authenticationRequestUrl = 'https:\/\/pro.ip-api.com\/json';
+    COC.authenticationRequestKey = 'uNrEnQsPDFb1nm0';
+    COC.urlParameterStopCountryRedirection = 'stopredirection';
+
+    COC.config.googleApiKey = '0';
+    COC.defaultPosition = {
+        latitude: '4.7109886',
+        longitude: '-74.072092'
+    };
+    COC.config.coronaOmsEnabled = '';
+
+    COC.promoImpressionTimer = '2000';
+    COC.productImpressionTimer = '2000';
+    COC.siteUid = 'corona-co';
+    COC.pageType = '';
+    COC.categoryName = '';
+    COC.sortedFeatures = '';
+
+    COC.presentationNames = {
+        "UNIT": 'unidad',
+        "BOX": 'caja',
+        "VAJILLA": 'Vajilla',
+        "SET": 'Conjunto'
+    };
+
+    COC.deliveryAvailable = 'Disponible para domicilio';
+    COC.deliveryUnavailable = 'No disponible para domicilio';
+
+    COC.centersName = 'Centro Corona';
+    COC.outletName = 'Outlet Centro Corona';
+    COC.resellersName = 'Distribuidor Exclusivo';
+    COC.technicalServicePointName = 'Punto de Servicio Técnico';
+    COC.toDistanceLabel = 'A';
+
+    COC.storeOpeningStatusOpened = 'Abierto';
+    COC.storeOpeningStatusClosed = 'Cerrado';
+
+    COC.geolocalizerEmptySearchStart = 'Lo sentimos, no encontramos resultados para';
+    COC.geolocalizerEmptySearchEnd = 'Comprueba que la búsqueda este bien escrita.';
+    COC.geolocalizerHomeDelivery = 'Entrega a Domicilio';
+    COC.geolocalizerPhone = 'Teléfono';
+    COC.geolocalizerPosDetailsError = 'Error consultando los detalles del punto de servicio:';
+    COC.geolocalizerShareLocation = 'Por favor comparte tu ubicación o activa el GPS.';
+    COC.geolocalizerShareLocationAction = 'Compartir Ubicación';
+
+    COC.config.environmentSimulator = '';
+    COC.config.simulator = {
+        'targetOrgin' : '',
+        'domainKey' : ''
+    }
+
+    COC.kioskGoBack = 'Volver';
+    COC.noItemsAddedTitle = 'No se pudo añadir el producto al carrito ';
+
+    COC.pickupHideMap = 'Ocultar Mapa';
+
+    COC.conversionUnitFormatted = {
+        'M2': 'm2'
+    };
+    /*]]>*/
+</script>
+<script>
+	/*<![CDATA[*/
+	ACC.addons = {};	//JS namespace for addons properties
+
+	
+		ACC.addons['assistedservicepromotionaddon'] = [];
+		
+		ACC.addons['smarteditaddon'] = [];
+		
+		ACC.addons['customerticketingaddon'] = [];
+		
+		ACC.addons['assistedservicestorefront'] = [];
+		
+				ACC.addons['assistedservicestorefront']['asm.timer.min'] = 'min';
+			
+	/*]]>*/
+</script>
+<script src="/_ui/shared/js/generatedVariables.js"></script>
+<script src="/wro/all_responsive.js"></script>
+        <script src="/wro/addons_responsive.js"></script>
+        <script src="/admanServiceWorker.js"></script>
+    
+
+
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NHQD34"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div style="display: none; visibility: hidden;">
+<script>!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1606869749346026");fbq("track","PageView");</script>
+<noscript></noscript>
+</div>
+<script type="text/javascript" id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=122b74d9-24d4-482e-ad4e-7f56aebafde4"></script><script type="text/javascript" id="">var _paq=_paq||[];_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);(function(){var c=("https:"==document.location.protocol?"https":"http")+"://tr.datatrics.com/";_paq.push(["setTrackerUrl",c]);_paq.push(["setProjectId","404040571"]);var a=document,b=a.createElement("script");a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.defer=!0;b.async=!0;b.src=c;a.parentNode.insertBefore(b,a)})();</script>
+            
+
+<script type="text/javascript" id="">(function(){var l=function(e,g,f,h){this.get=function(a){a+="\x3d";for(var b=document.cookie.split(";"),c=0,k=b.length;c<k;c++){for(var d=b[c];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};this.set=function(a,b){var c=new Date;c.setTime(c.getTime()+6048E5);c="; expires\x3d"+c.toGMTString();document.cookie=a+"\x3d"+b+c+"; path\x3d/; "};this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==g&&(e=Math.random()>=
+e/100?0:100),a=[g,e,0],this.set(f,a.join(":"));else return!0;var b=a[1];if(100==b)return!0;switch(a[0]){case "v":return!1;case "r":return b=a[2]%Math.floor(100/b),a[2]++,this.set(f,a.join(":")),!b}return!0};this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=h;document.body&&document.body.appendChild(a)}};this.start=function(){var a=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){a.go()},
+!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()}):a.go()}};try{(new l(100,"r","QSI_S_ZN_9n2u3UgFjmUilTg","https://zn9n2u3ugfjmuiltg-coronacx.siteintercept.qualtrics.com/SIE/?Q_ZID\x3dZN_9n2u3UgFjmUilTg")).start()}catch(e){}})();</script><script type="text/javascript" src="https://zn9n2u3ugfjmuiltg-coronacx.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_9n2u3UgFjmUilTg"></script><div id="ZN_9n2u3UgFjmUilTg"></div>
+
+<script type="text/javascript" id="" src="https://cdn.embluemail.com/pixeltracking/pixeltracking.js?code=3cb8307a81e8af86964bbfe297a1b5e2"></script>
+<script type="text/javascript" id="">(function(d,e,f,b,c,g){g=function(a){a=new Date;return a.getFullYear()+""+(a.getMonth()+1)+a.getDate()+"T"+a.getHours()+a.getMinutes()+a.getSeconds()};f="https://widgets-static.embluemail.com/accounts/1069263122B9DCB55A/scripts/sw_10692.js?ts\x3d"+g();b=d.createElement(e);b.async=1;b.src=f;c=d.getElementsByTagName(e)[0];c.parentNode.insertBefore(b,c)})(document,"script");</script><iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><div><iframe title="Abre un widget desde donde se puede chatear con uno de los agentes" id="launcher" tabindex="0" style="color-scheme: light; width: 107px; height: 50px; padding: 0px; margin: 10px 20px; position: fixed; bottom: 0px; overflow: visible; opacity: 1; border: 0px; z-index: 999998; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; right: 0px;"></iframe></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="El reCAPTCHA caduca dentro de dos minutos" src="https://www.google.com/recaptcha/api2/bframe?hl=es&amp;v=5qcenVbrhOy8zihcc2aHOWD4&amp;k=6LcUo7QUAAAAAOTuIiCdshsEQfdQt1edgT-09Ijs" name="c-ijl8hdpf95le" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body><!-- Google Tag Manager --></html>

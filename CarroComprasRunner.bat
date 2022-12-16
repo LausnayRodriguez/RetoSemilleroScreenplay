@@ -1,0 +1,1 @@
+gradle clean test --tests co.corona.runners.CarroComprasRunner aggregate & cd target/site/serenity & index.html
